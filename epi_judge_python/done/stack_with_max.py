@@ -3,6 +3,7 @@ from test_framework.test_failure import TestFailure
 
 
 class Stack:
+<<<<<<< HEAD:epi_judge_python/stack_with_max.py
     def empty(self) -> bool:
         # TODO - you fill in here.
         return True
@@ -18,6 +19,30 @@ class Stack:
     def push(self, x: int) -> None:
         # TODO - you fill in here.
         return
+=======
+    def __init__(self):
+      self.maxs = []
+      self.data = []
+
+    def empty(self):
+      return not bool(self.data)
+
+    def max(self):
+      if self.maxs:
+        return self.maxs[-1]
+
+    def pop(self):
+      if self.data:
+        popped = self.data.pop()
+        if popped == self.max():
+          self.maxs.pop()
+        return popped
+
+    def push(self, x):
+      if (not self.maxs) or (x >= self.max()):
+        self.maxs.append(x)
+      self.data.append(x)
+>>>>>>> cf3ad5a... solved some:epi_judge_python/done/stack_with_max.py
 
 
 def stack_tester(ops):
