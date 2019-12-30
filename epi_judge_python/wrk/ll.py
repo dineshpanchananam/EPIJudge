@@ -5,6 +5,13 @@ def p(x):
     x = x.next
   print(s)
 
+def rev(x):
+  p, c = None, x
+  while c:
+    nxt, c.next = c.next, p
+    p, c = c, nxt
+  return p
+
 def mid(x):
   c, f = x, x
   while f and f.next:
@@ -20,8 +27,13 @@ class N:
     self.data = d
     self.next = l
 
-x = N(1, N(2, N(3, N(4, N(8)))))
-p(x)
-m = mid(x)
-p(m)
-p(x)
+fst = N(1, N(2, N(3, N(4, N(5)))))
+snd = rev(mid(fst))
+
+head = fst
+while snd:
+  tmp = snd.next
+  snd.next = fst.next
+  fst.next = snd
+  snd, fst = tmp, snd.next
+p(head)
