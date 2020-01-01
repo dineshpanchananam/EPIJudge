@@ -1,0 +1,31 @@
+#!/bin/bash
+
+PASSED="PASSED"
+FAILED="FAILED"
+OUT_FILE="out"
+DONE="./done"
+FAILED_PROBLEMS=()
+
+for problem in $DONE/*.py; do
+  git mv $problem .
+  FILE=$(basename $problem)
+  python3 $FILE > $OUT_FILE
+  if grep -q $FAILED $OUT_FILE; then
+    echo "$FILE FAILED"
+    FAILED_PROBLEMS+=( $FILE )
+  else 
+    echo "$FILE PASSED"
+    git mv $FILE $DONE
+  fi
+  rm $OUT_FILE
+done
+
+echo
+if [[ ${#FAILED_PROBLEMS} -eq 0 ]]; then
+  echo "ALL PASSED"
+else
+  echo "[!] FAILED [!]"
+  for prob in $FAILED_PROBLEMS; do
+    echo $prob
+  done
+fi

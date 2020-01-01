@@ -1,0 +1,20 @@
+#!/bin/bash
+
+PASSED="PASSED"
+FAILED="FAILED"
+OUT_FILE="out"
+DONE="./done"
+FAILED_PROBLEMS=()
+
+FILE=$1
+python3 $FILE > $OUT_FILE
+cat $OUT_FILE
+if grep -q $FAILED $OUT_FILE; then
+  echo "$FILE FAILED"
+  FAILED_PROBLEMS+=( $FILE )
+else 
+  echo "$FILE PASSED"
+  git add $FILE
+  git mv $FILE $DONE
+fi
+rm $OUT_FILE

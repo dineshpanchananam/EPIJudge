@@ -11,9 +11,18 @@ def zero_one_random():
     return random.randrange(2)
 
 
+<<<<<<< HEAD
 def uniform_random(lower_bound: int, upper_bound: int) -> int:
     # TODO - you fill in here.
     return 0
+=======
+def uniform_random(lower_bound, upper_bound):
+  diff = upper_bound - lower_bound
+  rnd = random.random()
+  ans = lower_bound + int(rnd * diff)
+  # print(ans)
+  return ans
+>>>>>>> ee84769... added run and check
 
 
 @enable_executor_hook
