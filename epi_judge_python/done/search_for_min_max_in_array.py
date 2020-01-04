@@ -7,9 +7,20 @@ from test_framework.test_failure import PropertyName
 MinMax = collections.namedtuple('MinMax', ('smallest', 'largest'))
 
 
+<<<<<<< HEAD:epi_judge_python/search_for_min_max_in_array.py
 def find_min_max(A: List[int]) -> MinMax:
     # TODO - you fill in here.
     return MinMax(0, 0)
+=======
+def find_min_max(A):
+  mn, mx = float('inf'), float('-inf')
+  for i in A:
+    if i > mx:
+      mx = i
+    if i < mn:
+      mn = i
+  return MinMax(mn, mx)
+>>>>>>> 7fdc011... 01.04:epi_judge_python/done/search_for_min_max_in_array.py
 
 
 def res_printer(prop, value):

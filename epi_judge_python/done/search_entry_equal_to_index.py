@@ -6,10 +6,24 @@ from test_framework.test_failure import TestFailure
 from test_framework.test_utils import enable_executor_hook
 
 
+<<<<<<< HEAD:epi_judge_python/search_entry_equal_to_index.py
 def search_entry_equal_to_its_index(A: List[int]) -> int:
     # TODO - you fill in here.
     return 0
 
+=======
+def search_entry_equal_to_its_index(A):
+  l, h = 0, len(A)-1
+  while l <= h:
+    mid = (l + h) // 2
+    if A[mid] == mid:
+      return mid
+    elif A[mid] < mid:
+      l = mid+1
+    else:
+      h = mid-1
+  return -1
+>>>>>>> 7fdc011... 01.04:epi_judge_python/done/search_entry_equal_to_index.py
 
 @enable_executor_hook
 def search_entry_equal_to_its_index_wrapper(executor, A):
