@@ -8,9 +8,16 @@ from test_framework.test_utils import enable_executor_hook
 NUM_PEGS = 3
 
 
+<<<<<<< HEAD
 def compute_tower_hanoi(num_rings: int) -> List[List[int]]:
     # TODO - you fill in here.
     return []
+=======
+def compute_tower_hanoi(num_rings):
+    if num_rings <= 1:
+      return 1
+    return 2 * compute_tower_hanoi(num_rings-1) + 1
+>>>>>>> 4b1174a... more problems
 
 
 @enable_executor_hook
