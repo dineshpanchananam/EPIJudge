@@ -1,0 +1,3 @@
+#!/bin/bash
+
+git diff --name-status master..up/master | grep '^M.*py$'
