@@ -11,6 +11,7 @@ python3 $FILE > $OUT_FILE
 cat $OUT_FILE
 if grep -q $FAILED $OUT_FILE; then
   echo "$FILE FAILED"
+  cat $OUT_FILE
   FAILED_PROBLEMS+=( $FILE )
 else 
   echo "$FILE PASSED"
