@@ -3,10 +3,15 @@ from typing import Iterator, List
 from test_framework import generic_test
 
 
+<<<<<<< HEAD
 def sort_approximately_sorted_array(sequence: Iterator[int],
                                     k: int) -> List[int]:
     # TODO - you fill in here.
     return []
+=======
+def sort_approximately_sorted_array(sequence, k):
+  pass
+>>>>>>> 6e7e48e... some wip
 
 
 def sort_approximately_sorted_array_wrapper(sequence, k):

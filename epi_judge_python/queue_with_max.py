@@ -1,8 +1,10 @@
 from test_framework import generic_test
 from test_framework.test_failure import TestFailure
-
+from collections import deque
+import heapq as h
 
 class QueueWithMax:
+<<<<<<< HEAD
     def enqueue(self, x: int) -> None:
         # TODO - you fill in here.
         return
@@ -10,6 +12,18 @@ class QueueWithMax:
     def dequeue(self) -> int:
         # TODO - you fill in here.
         return 0
+=======
+    def __init__(self):
+      self.q = deque()
+      self.maxq = deque()
+
+    def enqueue(self, x):
+      self.q.append(x)
+      if q.
+
+    def dequeue(self):
+      if 
+>>>>>>> 6e7e48e... some wip
 
     def max(self) -> int:
         # TODO - you fill in here.

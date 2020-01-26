@@ -3,6 +3,7 @@ from test_framework.test_failure import TestFailure
 
 
 class Queue:
+<<<<<<< HEAD:epi_judge_python/queue_from_stacks.py
     def enqueue(self, x: int) -> None:
         # TODO - you fill in here.
         return
@@ -11,6 +12,19 @@ class Queue:
         # TODO - you fill in here.
         return 0
 
+=======
+    def __init__(self):
+      self.s = []
+      self.ptr = 0
+    
+    def enqueue(self, x):
+      self.s.append(x)
+
+    def dequeue(self):
+      if self.s:
+        self.ptr += 1
+        return self.s[self.ptr-1]
+>>>>>>> 6e7e48e... some wip:epi_judge_python/done/queue_from_stacks.py
 
 def queue_tester(ops):
     try:
