@@ -1,0 +1,3 @@
+#!/bin/bash
+
+less ../epi_judge_python_solutions/$1
