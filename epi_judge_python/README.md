@@ -160,9 +160,9 @@
 - [ ] [enumerate_trees.py](./enumerate_trees.py) [sol](../epi_judge_python_solutions/enumerate_trees.py)
 - [ ] [sudoku_solve.py](./sudoku_solve.py) [sol](../epi_judge_python_solutions/sudoku_solve.py)
 - [ ] [gray_code.py](./gray_code.py) [sol](../epi_judge_python_solutions/gray_code.py)
-### Dynamic Programming (3/14)
+### Dynamic Programming (4/14)
 - [x] [fibonacci.py](./fibonacci.py) [sol](../epi_judge_python_solutions/fibonacci.py)
-- [ ] [max_sum_subarray.py](./max_sum_subarray.py) [sol](../epi_judge_python_solutions/max_sum_subarray.py)
+- [x] [max_sum_subarray.py](./max_sum_subarray.py) [sol](../epi_judge_python_solutions/max_sum_subarray.py)
 - [ ] [number_of_score_combinations.py](./number_of_score_combinations.py) [sol](../epi_judge_python_solutions/number_of_score_combinations.py)
 - [ ] [levenshtein_distance.py](./levenshtein_distance.py) [sol](../epi_judge_python_solutions/levenshtein_distance.py)
 - [ ] [number_of_traversals_matrix.py](./number_of_traversals_matrix.py) [sol](../epi_judge_python_solutions/number_of_traversals_matrix.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 48/218 = 0.22
+PROGRESS: 49/218 = 0.22
