@@ -74,9 +74,9 @@
 - [ ] [circular_queue.py](./circular_queue.py) [sol](../epi_judge_python_solutions/circular_queue.py)
 - [x] [queue_from_stacks.py](./queue_from_stacks.py) [sol](../epi_judge_python_solutions/queue_from_stacks.py)
 - [ ] [queue_with_max.py](./queue_with_max.py) [sol](../epi_judge_python_solutions/queue_with_max.py)
-### Binary Trees (3/15)
+### Binary Trees (4/15)
 - [x] [is_tree_balanced.py](./is_tree_balanced.py) [sol](../epi_judge_python_solutions/is_tree_balanced.py)
-- [ ] [is_tree_symmetric.py](./is_tree_symmetric.py) [sol](../epi_judge_python_solutions/is_tree_symmetric.py)
+- [x] [is_tree_symmetric.py](./is_tree_symmetric.py) [sol](../epi_judge_python_solutions/is_tree_symmetric.py)
 - [ ] [lowest_common_ancestor.py](./lowest_common_ancestor.py) [sol](../epi_judge_python_solutions/lowest_common_ancestor.py)
 - [ ] [lowest_common_ancestor_with_parent.py](./lowest_common_ancestor_with_parent.py) [sol](../epi_judge_python_solutions/lowest_common_ancestor_with_parent.py)
 - [ ] [sum_root_to_leaf.py](./sum_root_to_leaf.py) [sol](../epi_judge_python_solutions/sum_root_to_leaf.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 46/218
+PROGRESS: 47/218
