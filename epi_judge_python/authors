@@ -1,0 +1,7 @@
+#/bin/bash
+
+if (( $# > 0 )); then
+    cp "../epi_judge_python_solutions/$1" tmp.py
+    python tmp.py
+	rm tmp.py
+fi

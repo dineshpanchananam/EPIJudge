@@ -7,12 +7,19 @@ from test_framework import generic_test
 # find_kth_largest(1, A) returns 3, find_kth_largest(2, A) returns 2,
 # find_kth_largest(3, A) returns 1, and find_kth_largest(4, A) returns -1.
 def find_kth_largest(k: int, A: List[int]) -> int:
+    import heapq as h
+
     # TODO - you fill in here.
-    return 0
+    heap = A[:k]
+    h.heapify(heap)
+    for i in range(k, len(A)):
+        h.heappushpop(heap, A[i])
+    return heap[0]
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     exit(
-        generic_test.generic_test_main('kth_largest_in_array.py',
-                                       'kth_largest_in_array.tsv',
-                                       find_kth_largest))
+        generic_test.generic_test_main(
+            "kth_largest_in_array.py", "kth_largest_in_array.tsv", find_kth_largest
+        )
+    )
