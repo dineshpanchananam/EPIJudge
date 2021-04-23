@@ -58,7 +58,8 @@ with open("../problem_mapping.js") as f:
         print(
           syms[mode][status],
           f"[{key}](./{key})",
-          f"[sol](../epi_judge_python_solutions/{key})",
+          "    ",
+          f"[solution](../epi_judge_python_solutions/{key})",
         )
       elif status in display:
         print(syms[mode][status], key)
