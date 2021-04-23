@@ -36,6 +36,6 @@ with open("../problem_mapping.js") as f:
     for key in output:
       status, sym = output[key]
       if status in display:
-        print("  ", sym, key)
+        print('-', sym, key)
 
 print(f"\nPROGRESS: {overall['done']}/{overall['total']}")
