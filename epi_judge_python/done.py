@@ -63,4 +63,6 @@ with open("../problem_mapping.js") as f:
       elif status in display:
         print(syms[mode][status], key)
 
-print(f"\nPROGRESS: {overall['done']}/{overall['total']}")
+print(
+  f"\nPROGRESS: {overall['done']}/{overall['total']} = {overall['done']/overall['total']:0.2f}"
+)
