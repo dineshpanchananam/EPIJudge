@@ -25,12 +25,12 @@ with open("../problem_mapping.js") as f:
         passed, total = status["passed"], status["total"]
         if passed == total:
           done += 1
-          output[key] = ("done", "✔")
+          output[key] = ("done", "[x]")
         elif passed > 0:
-          output[key] = ("wip", "✘")
+          output[key] = ("wip", "[ ]")
         else:
-          output[key] = ("todo", "-")
-    print(f"> {_chap} ({done}/{tot})")
+          output[key] = ("todo", "[ ]")
+    print(f"### {_chap} ({done}/{tot})")
     overall["done"] += done
     overall["total"] += tot
     for key in output:
