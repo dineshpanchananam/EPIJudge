@@ -1,8 +1,11 @@
 from test_framework import generic_test
+from collections import Counter
+from string import punctuation
 
 
 def is_palindrome(s: str) -> bool:
-    pass
+    s = [x for x in s if x in punctuation]
+    return sum(1 for x in Counter(s).values() if x & 1) <= 1
 
 
 if __name__ == "__main__":

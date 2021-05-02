@@ -15,16 +15,16 @@ if len(sys.argv) > 1:
 syms = {
   "md": {
     "banner": "###",
-    "done": '- [x]',
-    "todo": '- [ ]',
-    "wip": '- [ ]',
+    "done": "- [x]",
+    "todo": "- [ ]",
+    "wip": "- [ ]",
   },
   "normal": {
     "banner": ">",
     "done": "  ✔",
     "todo": "  -",
     "wip": "  x",
-  }
+  },
 }
 
 with open("../problem_mapping.js") as f:
@@ -49,7 +49,8 @@ with open("../problem_mapping.js") as f:
           output[key] = "wip"
         else:
           output[key] = "todo"
-    print(f"{syms[mode]['banner']} {_chap} ({done}/{tot})")
+    if display != "wip":
+      print(f"{syms[mode]['banner']} {_chap} ({done}/{tot})")
     overall["done"] += done
     overall["total"] += tot
     for key in output:
@@ -61,7 +62,7 @@ with open("../problem_mapping.js") as f:
           f"[sol](../epi_judge_python_solutions/{key})",
         )
       elif status in display:
-        print(syms[mode][status], key)
+        print(syms[mode][status], f"./{key}")
 
 print(
   f"\nPROGRESS: {overall['done']}/{overall['total']} = {overall['done']/overall['total']:0.2f}"

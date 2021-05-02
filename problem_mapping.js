@@ -236,7 +236,7 @@ problem_mapping = {
                 "total": 2004
             },
             "Python: advance_by_offsets.py": {
-                "passed": 0,
+                "passed": 2004,
                 "total": 2004
             }
         },
@@ -250,7 +250,7 @@ problem_mapping = {
                 "total": 2003
             },
             "Python: sorted_array_remove_dups.py": {
-                "passed": 0,
+                "passed": 2003,
                 "total": 2003
             }
         },
@@ -264,7 +264,7 @@ problem_mapping = {
                 "total": 402
             },
             "Python: buy_and_sell_stock.py": {
-                "passed": 0,
+                "passed": 402,
                 "total": 402
             }
         },
@@ -418,7 +418,7 @@ problem_mapping = {
                 "total": 745
             },
             "Python: is_valid_sudoku.py": {
-                "passed": 0,
+                "passed": 745,
                 "total": 745
             }
         },
@@ -518,7 +518,7 @@ problem_mapping = {
                 "total": 10000
             },
             "Python: spreadsheet_encoding.py": {
-                "passed": 0,
+                "passed": 10000,
                 "total": 10000
             }
         },
@@ -602,7 +602,7 @@ problem_mapping = {
                 "total": 10008
             },
             "Python: valid_ip_addresses.py": {
-                "passed": 0,
+                "passed": 10008,
                 "total": 10008
             }
         },
@@ -630,7 +630,7 @@ problem_mapping = {
                 "total": 200
             },
             "Python: run_length_compression.py": {
-                "passed": 0,
+                "passed": 200,
                 "total": 200
             }
         },
@@ -1066,7 +1066,7 @@ problem_mapping = {
                 "total": 3849
             },
             "Python: sum_root_to_leaf.py": {
-                "passed": 0,
+                "passed": 3849,
                 "total": 3849
             }
         },
@@ -1122,7 +1122,7 @@ problem_mapping = {
                 "total": 948
             },
             "Python: successor_in_tree.py": {
-                "passed": 0,
+                "passed": 948,
                 "total": 948
             }
         },
@@ -1308,7 +1308,7 @@ problem_mapping = {
                 "total": 314
             },
             "Python: search_first_key.py": {
-                "passed": 0,
+                "passed": 314,
                 "total": 314
             }
         },
@@ -1322,7 +1322,7 @@ problem_mapping = {
                 "total": 501
             },
             "Python: search_entry_equal_to_index.py": {
-                "passed": 0,
+                "passed": 501,
                 "total": 501
             }
         },
@@ -1336,7 +1336,7 @@ problem_mapping = {
                 "total": 307
             },
             "Python: search_shifted_sorted_array.py": {
-                "passed": 0,
+                "passed": 1,
                 "total": 307
             }
         },
@@ -1790,7 +1790,7 @@ problem_mapping = {
                 "total": 955
             },
             "Python: search_in_bst.py": {
-                "passed": 0,
+                "passed": 955,
                 "total": 955
             }
         },
@@ -1832,7 +1832,7 @@ problem_mapping = {
                 "total": 949
             },
             "Python: k_largest_values_in_bst.py": {
-                "passed": 0,
+                "passed": 949,
                 "total": 949
             }
         },
@@ -2016,7 +2016,7 @@ problem_mapping = {
                 "total": 8
             },
             "Python: permutations.py": {
-                "passed": 0,
+                "passed": 8,
                 "total": 8
             }
         },
@@ -2030,7 +2030,7 @@ problem_mapping = {
                 "total": 15
             },
             "Python: power_set.py": {
-                "passed": 0,
+                "passed": 15,
                 "total": 15
             }
         },
@@ -2282,7 +2282,7 @@ problem_mapping = {
                 "total": 546
             },
             "Python: number_of_traversals_staircase.py": {
-                "passed": 0,
+                "passed": 546,
                 "total": 546
             }
         },
@@ -2944,7 +2944,7 @@ problem_mapping = {
                 "total": 501
             },
             "Python: maximum_subarray_in_circular_array.py": {
-                "passed": 0,
+                "passed": 2,
                 "total": 501
             }
         },
