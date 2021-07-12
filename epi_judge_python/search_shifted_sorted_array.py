@@ -3,19 +3,21 @@ from typing import List
 from test_framework import generic_test
 
 
-def search_smallest(A: list[int]) -> int:
-  # 3,4,5,1,2
+def search_smallest(a: list[int]) -> int:
+  # 2,3,4,5,1
   # 5,1,2,3,4
-
-  l, h = 0, len(A)-1
-  while l < h:
-    if A[l] < A[h]:
-      break
-    mid = (l+h)//2
-    if A[mid] > A[l]:
-      l = mid
+  l, r = 0, len(a)-1
+  while l < r and a[l] > a[r]:
+    if (r-l) == 1 and a[l] > a[r]:
+      return r
+    # print(a, l, r, a[l:r+1])
+    # from time import sleep
+    # sleep(1)
+    mid = (l+r)//2
+    if a[mid] < a[l]:
+      r = mid
     else:
-      h = mid
+      l = mid
   return l
 
 

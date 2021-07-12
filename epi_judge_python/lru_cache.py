@@ -1,51 +1,89 @@
 from test_framework import generic_test
 from test_framework.test_failure import TestFailure
 
-class Node:
-  def __init__(self, v, p=None, n=None):
-    self.data = v
-    self.prev = p
-    self.next = n
+# class Node:
+#   def __init__(self, k, v, p=None, n=None):
+#     self.key = k
+#     self.value = v
+#     self.prev = p
+#     self.next = n
 
-def delete(n: Node):
-  prev = n.prev
-  next = n.next
-  prev.next = next
-  next.prev = prev
+# def unlink(n: Node):
+#   n.prev.next = n.next
+#   n.next.prev = n.prev
+#   # n.prev = n.next = None
+#   return n
 
-def move_to_front(n: Node, h: Node):
-  n.next = h
-  h.prev = n
-  return n
+# def prepend(n: Node, head: Node):
+#   n.next = head.next
+#   n.prev = head
+#   head.next.prev = n
+#   head.next = n
+
+# class LruCache:
+#   def __init__(self, capacity: int) -> None:
+#     self.cap = capacity
+#     self.map = {}
+#     self.head = self.tail = Node("+", "-")
+#     # self.tail = Node("-", "+")
+#     self.head.next = self.tail
+#     self.tail.prev = self.head
+
+#   def lookup(self, isbn: int) -> int:
+#     if isbn not in self.map:
+#       return -1
+
+#     node = unlink(self.map[isbn])
+#     prepend(node, self.head)
+#     return node.value
+
+#   def insert(self, isbn: int, price: int) -> None:
+#     if isbn in self.map:
+#       self.lookup(isbn)
+#       return
+
+#     if len(self.map) >= self.cap:
+#       last = self.tail.prev
+#       unlink(last)
+#       del self.map[last.key]
+
+#     new_node = Node(isbn, price)
+#     self.map[isbn] = new_node
+#     prepend(new_node, self.head)
+
+#   def erase(self, isbn: int) -> bool:
+#     if isbn not in self.map:
+#       return False
+
+#     node = self.map[isbn]
+#     unlink(node)
+#     del self.map[isbn]
+#     return True
 
 class LruCache:
   def __init__(self, capacity: int) -> None:
     self.cap = capacity
     self.map = {}
-    self.head = self.tail = Node("-")
 
   def lookup(self, isbn: int) -> int:
-    if isbn in self.map:
-      return self.map[isbn].data
-    return -1
+    if isbn not in self.map:
+      return -1
+    price = self.map.pop(isbn)
+    self.map[isbn] = price
+    return price
 
   def insert(self, isbn: int, price: int) -> None:
-    self.erase(isbn)
-    if len(self.map) >= self.cap:
-      self.tail = self.tail.prev
-      self.tail.next = None
+    if isbn in self.map:
+      self.lookup(isbn)
+      return
 
-    new_node = Node(price, self.head, self.head.next)
-    self.head.next = new_node
-    self.map[isbn] = new_node
-    self.cap += 1
+    if len(self.map) >= self.cap:
+      self.map.pop(next(iter(self.map)))
+
+    self.map[isbn] = price
 
   def erase(self, isbn: int) -> bool:
-    if isbn in self.map:
-      delete(self.map[isbn])
-      del self.map[isbn].data
-      return True
-    return False
+    return bool(self.map.pop(isbn, None))
 
 def lru_cache_tester(commands):
   if len(commands) < 1 or commands[0][0] != "LruCache":
