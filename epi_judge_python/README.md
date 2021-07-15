@@ -121,10 +121,10 @@
 - [ ] [longest_contained_interval.py](./longest_contained_interval.py) [sol](../epi_judge_python_solutions/longest_contained_interval.py)
 - [ ] [string_decompositions_into_dictionary_words.py](./string_decompositions_into_dictionary_words.py) [sol](../epi_judge_python_solutions/string_decompositions_into_dictionary_words.py)
 - [ ] [collatz_checker.py](./collatz_checker.py) [sol](../epi_judge_python_solutions/collatz_checker.py)
-### Sorting (0/12)
+### Sorting (1/12)
 - [ ] [intersect_sorted_arrays.py](./intersect_sorted_arrays.py) [sol](../epi_judge_python_solutions/intersect_sorted_arrays.py)
 - [ ] [two_sorted_arrays_merge.py](./two_sorted_arrays_merge.py) [sol](../epi_judge_python_solutions/two_sorted_arrays_merge.py)
-- [ ] [h_index.py](./h_index.py) [sol](../epi_judge_python_solutions/h_index.py)
+- [x] [h_index.py](./h_index.py) [sol](../epi_judge_python_solutions/h_index.py)
 - [ ] [remove_duplicates.py](./remove_duplicates.py) [sol](../epi_judge_python_solutions/remove_duplicates.py)
 - [ ] [smallest_nonconstructible_value.py](./smallest_nonconstructible_value.py) [sol](../epi_judge_python_solutions/smallest_nonconstructible_value.py)
 - [ ] [calendar_rendering.py](./calendar_rendering.py) [sol](../epi_judge_python_solutions/calendar_rendering.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 0/218 = 0.00
+PROGRESS: 1/218 = 0.00
