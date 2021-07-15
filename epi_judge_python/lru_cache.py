@@ -60,17 +60,18 @@ from test_framework.test_failure import TestFailure
 #     del self.map[isbn]
 #     return True
 
+from collections import OrderedDict
+
 class LruCache:
   def __init__(self, capacity: int) -> None:
     self.cap = capacity
-    self.map = {}
+    self.map = OrderedDict()
 
   def lookup(self, isbn: int) -> int:
     if isbn not in self.map:
       return -1
-    price = self.map.pop(isbn)
-    self.map[isbn] = price
-    return price
+    self.map.move_to_end(isbn)
+    return self.map[isbn]
 
   def insert(self, isbn: int, price: int) -> None:
     if isbn in self.map:
@@ -78,7 +79,7 @@ class LruCache:
       return
 
     if len(self.map) >= self.cap:
-      self.map.pop(next(iter(self.map)))
+      self.map.popitem(last=False)
 
     self.map[isbn] = price
 

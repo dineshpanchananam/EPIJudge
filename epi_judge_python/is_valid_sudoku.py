@@ -2,7 +2,6 @@ from typing import List
 
 from test_framework import generic_test
 
-
 def check_box(grid, x, y):
   s = set()
   for i in range(3):
@@ -13,7 +12,6 @@ def check_box(grid, x, y):
           continue
         return False
   return True
-
 
 # Check if a partially filled matrix has any conflicts.
 def is_valid_sudoku(partial_assignment: List[List[int]]) -> bool:
@@ -35,7 +33,6 @@ def is_valid_sudoku(partial_assignment: List[List[int]]) -> bool:
       c.clear()
 
   return True
-
 
 if __name__ == "__main__":
   exit(
