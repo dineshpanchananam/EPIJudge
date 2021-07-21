@@ -74,14 +74,14 @@
 - [ ] [circular_queue.py](./circular_queue.py) [sol](../epi_judge_python_solutions/circular_queue.py)
 - [ ] [queue_from_stacks.py](./queue_from_stacks.py) [sol](../epi_judge_python_solutions/queue_from_stacks.py)
 - [ ] [queue_with_max.py](./queue_with_max.py) [sol](../epi_judge_python_solutions/queue_with_max.py)
-### Binary Trees (0/15)
+### Binary Trees (1/15)
 - [ ] [is_tree_balanced.py](./is_tree_balanced.py) [sol](../epi_judge_python_solutions/is_tree_balanced.py)
 - [ ] [is_tree_symmetric.py](./is_tree_symmetric.py) [sol](../epi_judge_python_solutions/is_tree_symmetric.py)
 - [ ] [lowest_common_ancestor.py](./lowest_common_ancestor.py) [sol](../epi_judge_python_solutions/lowest_common_ancestor.py)
 - [ ] [lowest_common_ancestor_with_parent.py](./lowest_common_ancestor_with_parent.py) [sol](../epi_judge_python_solutions/lowest_common_ancestor_with_parent.py)
 - [ ] [sum_root_to_leaf.py](./sum_root_to_leaf.py) [sol](../epi_judge_python_solutions/sum_root_to_leaf.py)
 - [ ] [path_sum.py](./path_sum.py) [sol](../epi_judge_python_solutions/path_sum.py)
-- [ ] [tree_inorder.py](./tree_inorder.py) [sol](../epi_judge_python_solutions/tree_inorder.py)
+- [x] [tree_inorder.py](./tree_inorder.py) [sol](../epi_judge_python_solutions/tree_inorder.py)
 - [ ] [kth_node_in_tree.py](./kth_node_in_tree.py) [sol](../epi_judge_python_solutions/kth_node_in_tree.py)
 - [ ] [successor_in_tree.py](./successor_in_tree.py) [sol](../epi_judge_python_solutions/successor_in_tree.py)
 - [ ] [tree_with_parent_inorder.py](./tree_with_parent_inorder.py) [sol](../epi_judge_python_solutions/tree_with_parent_inorder.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 2/218 = 0.01
+PROGRESS: 3/218 = 0.01

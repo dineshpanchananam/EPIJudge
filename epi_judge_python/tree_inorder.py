@@ -3,7 +3,6 @@ from typing import List
 from binary_tree_node import BinaryTreeNode
 from test_framework import generic_test
 
-
 def inorder_traversal(tree):
   s = [(tree, False)]
   result = []
@@ -17,7 +16,6 @@ def inorder_traversal(tree):
       s.append((node.left, False))
 
   return result
-
 
 def inorder_traversal_1(tree: BinaryTreeNode) -> List[int]:
   ans = []
@@ -33,7 +31,6 @@ def inorder_traversal_1(tree: BinaryTreeNode) -> List[int]:
       ans.append(tree.data)
       tree = tree.right
   return ans
-
 
 if __name__ == "__main__":
   exit(
