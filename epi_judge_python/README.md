@@ -1,5 +1,5 @@
-### Primitive Types (1/12)
-- [ ] [count_bits.py](./count_bits.py) [sol](../epi_judge_python_solutions/count_bits.py)
+### Primitive Types (2/12)
+- [x] [count_bits.py](./count_bits.py) [sol](../epi_judge_python_solutions/count_bits.py)
 - [ ] [parity.py](./parity.py) [sol](../epi_judge_python_solutions/parity.py)
 - [ ] [swap_bits.py](./swap_bits.py) [sol](../epi_judge_python_solutions/swap_bits.py)
 - [ ] [reverse_bits.py](./reverse_bits.py) [sol](../epi_judge_python_solutions/reverse_bits.py)
@@ -74,7 +74,7 @@
 - [ ] [circular_queue.py](./circular_queue.py) [sol](../epi_judge_python_solutions/circular_queue.py)
 - [ ] [queue_from_stacks.py](./queue_from_stacks.py) [sol](../epi_judge_python_solutions/queue_from_stacks.py)
 - [ ] [queue_with_max.py](./queue_with_max.py) [sol](../epi_judge_python_solutions/queue_with_max.py)
-### Binary Trees (1/15)
+### Binary Trees (2/15)
 - [ ] [is_tree_balanced.py](./is_tree_balanced.py) [sol](../epi_judge_python_solutions/is_tree_balanced.py)
 - [ ] [is_tree_symmetric.py](./is_tree_symmetric.py) [sol](../epi_judge_python_solutions/is_tree_symmetric.py)
 - [ ] [lowest_common_ancestor.py](./lowest_common_ancestor.py) [sol](../epi_judge_python_solutions/lowest_common_ancestor.py)
@@ -83,7 +83,7 @@
 - [ ] [path_sum.py](./path_sum.py) [sol](../epi_judge_python_solutions/path_sum.py)
 - [x] [tree_inorder.py](./tree_inorder.py) [sol](../epi_judge_python_solutions/tree_inorder.py)
 - [ ] [kth_node_in_tree.py](./kth_node_in_tree.py) [sol](../epi_judge_python_solutions/kth_node_in_tree.py)
-- [ ] [successor_in_tree.py](./successor_in_tree.py) [sol](../epi_judge_python_solutions/successor_in_tree.py)
+- [x] [successor_in_tree.py](./successor_in_tree.py) [sol](../epi_judge_python_solutions/successor_in_tree.py)
 - [ ] [tree_with_parent_inorder.py](./tree_with_parent_inorder.py) [sol](../epi_judge_python_solutions/tree_with_parent_inorder.py)
 - [ ] [tree_from_preorder_inorder.py](./tree_from_preorder_inorder.py) [sol](../epi_judge_python_solutions/tree_from_preorder_inorder.py)
 - [ ] [tree_from_preorder_with_null.py](./tree_from_preorder_with_null.py) [sol](../epi_judge_python_solutions/tree_from_preorder_with_null.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 15/218 = 0.07
+PROGRESS: 17/218 = 0.08
