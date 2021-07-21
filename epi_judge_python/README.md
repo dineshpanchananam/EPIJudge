@@ -47,11 +47,11 @@
 - [ ] [snake_string.py](./snake_string.py) [sol](../epi_judge_python_solutions/snake_string.py)
 - [x] [run_length_compression.py](./run_length_compression.py) [sol](../epi_judge_python_solutions/run_length_compression.py)
 - [ ] [substring_match.py](./substring_match.py) [sol](../epi_judge_python_solutions/substring_match.py)
-### Linked Lists (0/16)
-- [ ] [delete_from_list.py](./delete_from_list.py) [sol](../epi_judge_python_solutions/delete_from_list.py)
-- [ ] [insert_in_list.py](./insert_in_list.py) [sol](../epi_judge_python_solutions/insert_in_list.py)
+### Linked Lists (3/16)
+- [x] [delete_from_list.py](./delete_from_list.py) [sol](../epi_judge_python_solutions/delete_from_list.py)
+- [x] [insert_in_list.py](./insert_in_list.py) [sol](../epi_judge_python_solutions/insert_in_list.py)
 - [ ] [search_in_list.py](./search_in_list.py) [sol](../epi_judge_python_solutions/search_in_list.py)
-- [ ] [sorted_lists_merge.py](./sorted_lists_merge.py) [sol](../epi_judge_python_solutions/sorted_lists_merge.py)
+- [x] [sorted_lists_merge.py](./sorted_lists_merge.py) [sol](../epi_judge_python_solutions/sorted_lists_merge.py)
 - [ ] [reverse_sublist.py](./reverse_sublist.py) [sol](../epi_judge_python_solutions/reverse_sublist.py)
 - [ ] [is_list_cyclic.py](./is_list_cyclic.py) [sol](../epi_judge_python_solutions/is_list_cyclic.py)
 - [ ] [do_terminated_lists_overlap.py](./do_terminated_lists_overlap.py) [sol](../epi_judge_python_solutions/do_terminated_lists_overlap.py)
@@ -160,9 +160,9 @@
 - [ ] [enumerate_trees.py](./enumerate_trees.py) [sol](../epi_judge_python_solutions/enumerate_trees.py)
 - [ ] [sudoku_solve.py](./sudoku_solve.py) [sol](../epi_judge_python_solutions/sudoku_solve.py)
 - [ ] [gray_code.py](./gray_code.py) [sol](../epi_judge_python_solutions/gray_code.py)
-### Dynamic Programming (2/14)
+### Dynamic Programming (3/14)
 - [x] [fibonacci.py](./fibonacci.py) [sol](../epi_judge_python_solutions/fibonacci.py)
-- [ ] [max_sum_subarray.py](./max_sum_subarray.py) [sol](../epi_judge_python_solutions/max_sum_subarray.py)
+- [x] [max_sum_subarray.py](./max_sum_subarray.py) [sol](../epi_judge_python_solutions/max_sum_subarray.py)
 - [ ] [number_of_score_combinations.py](./number_of_score_combinations.py) [sol](../epi_judge_python_solutions/number_of_score_combinations.py)
 - [ ] [levenshtein_distance.py](./levenshtein_distance.py) [sol](../epi_judge_python_solutions/levenshtein_distance.py)
 - [ ] [number_of_traversals_matrix.py](./number_of_traversals_matrix.py) [sol](../epi_judge_python_solutions/number_of_traversals_matrix.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 18/218 = 0.08
+PROGRESS: 22/218 = 0.10
