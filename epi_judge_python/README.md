@@ -175,12 +175,12 @@
 - [ ] [number_of_traversals_staircase.py](./number_of_traversals_staircase.py) [sol](../epi_judge_python_solutions/number_of_traversals_staircase.py)
 - [ ] [pretty_printing.py](./pretty_printing.py) [sol](../epi_judge_python_solutions/pretty_printing.py)
 - [ ] [longest_nondecreasing_subsequence.py](./longest_nondecreasing_subsequence.py) [sol](../epi_judge_python_solutions/longest_nondecreasing_subsequence.py)
-### Greedy Algorithms and Invariants (0/10)
+### Greedy Algorithms and Invariants (1/10)
 - [ ] [making_change.py](./making_change.py) [sol](../epi_judge_python_solutions/making_change.py)
 - [ ] [task_pairing.py](./task_pairing.py) [sol](../epi_judge_python_solutions/task_pairing.py)
 - [ ] [minimum_waiting_time.py](./minimum_waiting_time.py) [sol](../epi_judge_python_solutions/minimum_waiting_time.py)
 - [ ] [minimum_points_covering_intervals.py](./minimum_points_covering_intervals.py) [sol](../epi_judge_python_solutions/minimum_points_covering_intervals.py)
-- [ ] [two_sum.py](./two_sum.py) [sol](../epi_judge_python_solutions/two_sum.py)
+- [x] [two_sum.py](./two_sum.py) [sol](../epi_judge_python_solutions/two_sum.py)
 - [ ] [three_sum.py](./three_sum.py) [sol](../epi_judge_python_solutions/three_sum.py)
 - [ ] [majority_element.py](./majority_element.py) [sol](../epi_judge_python_solutions/majority_element.py)
 - [ ] [refueling_schedule.py](./refueling_schedule.py) [sol](../epi_judge_python_solutions/refueling_schedule.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 1/218 = 0.00
+PROGRESS: 2/218 = 0.01
