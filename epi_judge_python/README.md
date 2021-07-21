@@ -33,7 +33,7 @@
 - [ ] [spiral_ordering.py](./spiral_ordering.py) [sol](../epi_judge_python_solutions/spiral_ordering.py)
 - [ ] [matrix_rotation.py](./matrix_rotation.py) [sol](../epi_judge_python_solutions/matrix_rotation.py)
 - [ ] [pascal_triangle.py](./pascal_triangle.py) [sol](../epi_judge_python_solutions/pascal_triangle.py)
-### Strings (1/13)
+### Strings (2/13)
 - [x] [is_string_palindromic.py](./is_string_palindromic.py) [sol](../epi_judge_python_solutions/is_string_palindromic.py)
 - [ ] [string_integer_interconversion.py](./string_integer_interconversion.py) [sol](../epi_judge_python_solutions/string_integer_interconversion.py)
 - [ ] [convert_base.py](./convert_base.py) [sol](../epi_judge_python_solutions/convert_base.py)
@@ -45,7 +45,7 @@
 - [ ] [roman_to_integer.py](./roman_to_integer.py) [sol](../epi_judge_python_solutions/roman_to_integer.py)
 - [ ] [valid_ip_addresses.py](./valid_ip_addresses.py) [sol](../epi_judge_python_solutions/valid_ip_addresses.py)
 - [ ] [snake_string.py](./snake_string.py) [sol](../epi_judge_python_solutions/snake_string.py)
-- [ ] [run_length_compression.py](./run_length_compression.py) [sol](../epi_judge_python_solutions/run_length_compression.py)
+- [x] [run_length_compression.py](./run_length_compression.py) [sol](../epi_judge_python_solutions/run_length_compression.py)
 - [ ] [substring_match.py](./substring_match.py) [sol](../epi_judge_python_solutions/substring_match.py)
 ### Linked Lists (0/16)
 - [ ] [delete_from_list.py](./delete_from_list.py) [sol](../epi_judge_python_solutions/delete_from_list.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 17/218 = 0.08
+PROGRESS: 18/218 = 0.08
