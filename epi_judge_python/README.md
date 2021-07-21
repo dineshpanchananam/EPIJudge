@@ -108,8 +108,8 @@
 - [ ] [kth_largest_in_array.py](./kth_largest_in_array.py) [sol](../epi_judge_python_solutions/kth_largest_in_array.py)
 - [ ] [absent_value_array.py](./absent_value_array.py) [sol](../epi_judge_python_solutions/absent_value_array.py)
 - [ ] [search_for_missing_element.py](./search_for_missing_element.py) [sol](../epi_judge_python_solutions/search_for_missing_element.py)
-### Hash Tables (0/12)
-- [ ] [anagrams.py](./anagrams.py) [sol](../epi_judge_python_solutions/anagrams.py)
+### Hash Tables (1/12)
+- [x] [anagrams.py](./anagrams.py) [sol](../epi_judge_python_solutions/anagrams.py)
 - [ ] [is_string_permutable_to_palindrome.py](./is_string_permutable_to_palindrome.py) [sol](../epi_judge_python_solutions/is_string_permutable_to_palindrome.py)
 - [ ] [is_anonymous_letter_constructible.py](./is_anonymous_letter_constructible.py) [sol](../epi_judge_python_solutions/is_anonymous_letter_constructible.py)
 - [ ] [lru_cache.py](./lru_cache.py) [sol](../epi_judge_python_solutions/lru_cache.py)
@@ -160,7 +160,7 @@
 - [ ] [enumerate_trees.py](./enumerate_trees.py) [sol](../epi_judge_python_solutions/enumerate_trees.py)
 - [ ] [sudoku_solve.py](./sudoku_solve.py) [sol](../epi_judge_python_solutions/sudoku_solve.py)
 - [ ] [gray_code.py](./gray_code.py) [sol](../epi_judge_python_solutions/gray_code.py)
-### Dynamic Programming (1/14)
+### Dynamic Programming (2/14)
 - [x] [fibonacci.py](./fibonacci.py) [sol](../epi_judge_python_solutions/fibonacci.py)
 - [ ] [max_sum_subarray.py](./max_sum_subarray.py) [sol](../epi_judge_python_solutions/max_sum_subarray.py)
 - [ ] [number_of_score_combinations.py](./number_of_score_combinations.py) [sol](../epi_judge_python_solutions/number_of_score_combinations.py)
@@ -168,7 +168,7 @@
 - [ ] [number_of_traversals_matrix.py](./number_of_traversals_matrix.py) [sol](../epi_judge_python_solutions/number_of_traversals_matrix.py)
 - [ ] [binomial_coefficients.py](./binomial_coefficients.py) [sol](../epi_judge_python_solutions/binomial_coefficients.py)
 - [ ] [is_string_in_matrix.py](./is_string_in_matrix.py) [sol](../epi_judge_python_solutions/is_string_in_matrix.py)
-- [ ] [knapsack.py](./knapsack.py) [sol](../epi_judge_python_solutions/knapsack.py)
+- [x] [knapsack.py](./knapsack.py) [sol](../epi_judge_python_solutions/knapsack.py)
 - [ ] [is_string_decomposable_into_words.py](./is_string_decomposable_into_words.py) [sol](../epi_judge_python_solutions/is_string_decomposable_into_words.py)
 - [ ] [minimum_weight_path_in_a_triangle.py](./minimum_weight_path_in_a_triangle.py) [sol](../epi_judge_python_solutions/minimum_weight_path_in_a_triangle.py)
 - [ ] [picking_up_coins.py](./picking_up_coins.py) [sol](../epi_judge_python_solutions/picking_up_coins.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 13/218 = 0.06
+PROGRESS: 15/218 = 0.07
