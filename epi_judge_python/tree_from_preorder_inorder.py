@@ -5,15 +5,31 @@ from test_framework import generic_test
 
 def binary_tree_from_preorder_inorder(preorder: List[int],
                                       inorder: List[int]) -> BinaryTreeNode:
-  if not preorder:
-    return None
-  root = preorder[0]
-  idx = inorder.index(root)
-  return BinaryTreeNode(
-    root,
-    left=binary_tree_from_preorder_inorder(preorder[1:1+idx], inorder[:idx]),
-    right=binary_tree_from_preorder_inorder(preorder[idx+1:], inorder[idx+1:]),
-  )
+  def helper(po, io, i, j):
+    if not j == i:
+      return None
+    root = preorder[0]
+    idx = inorder.index(root)
+    return BinaryTreeNode(
+      root,
+      left=binary_tree_from_preorder_inorder(preorder[1:1+idx], inorder[:idx]),
+      right=binary_tree_from_preorder_inorder(preorder[idx+1:],
+                                              inorder[idx+1:]),
+    )
+
+  return helper(preorder, inorder, 0, len(inorder)-1)
+
+# def binary_tree_from_preorder_inorder(preorder: List[int],
+#                                       inorder: List[int]) -> BinaryTreeNode:
+#   if not preorder:
+#     return None
+#   root = preorder[0]
+#   idx = inorder.index(root)
+#   return BinaryTreeNode(
+#     root,
+#     left=binary_tree_from_preorder_inorder(preorder[1:1+idx], inorder[:idx]),
+#     right=binary_tree_from_preorder_inorder(preorder[idx+1:], inorder[idx+1:]),
+#   )
 
 if __name__ == '__main__':
   exit(
