@@ -5,8 +5,15 @@ from test_framework import generic_test
 
 def binary_tree_from_preorder_inorder(preorder: List[int],
                                       inorder: List[int]) -> BinaryTreeNode:
-  # TODO - you fill in here.
-  return BinaryTreeNode()
+  if not preorder:
+    return None
+  root = preorder[0]
+  idx = inorder.index(root)
+  return BinaryTreeNode(
+    root,
+    left=binary_tree_from_preorder_inorder(preorder[1:1+idx], inorder[:idx]),
+    right=binary_tree_from_preorder_inorder(preorder[idx+1:], inorder[idx+1:]),
+  )
 
 if __name__ == '__main__':
   exit(

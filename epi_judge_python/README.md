@@ -74,7 +74,7 @@
 - [ ] [circular_queue.py](./circular_queue.py) [sol](../epi_judge_python_solutions/circular_queue.py)
 - [ ] [queue_from_stacks.py](./queue_from_stacks.py) [sol](../epi_judge_python_solutions/queue_from_stacks.py)
 - [ ] [queue_with_max.py](./queue_with_max.py) [sol](../epi_judge_python_solutions/queue_with_max.py)
-### Binary Trees (6/15)
+### Binary Trees (7/15)
 - [x] [is_tree_balanced.py](./is_tree_balanced.py) [sol](../epi_judge_python_solutions/is_tree_balanced.py)
 - [x] [is_tree_symmetric.py](./is_tree_symmetric.py) [sol](../epi_judge_python_solutions/is_tree_symmetric.py)
 - [x] [lowest_common_ancestor.py](./lowest_common_ancestor.py) [sol](../epi_judge_python_solutions/lowest_common_ancestor.py)
@@ -85,7 +85,7 @@
 - [ ] [kth_node_in_tree.py](./kth_node_in_tree.py) [sol](../epi_judge_python_solutions/kth_node_in_tree.py)
 - [x] [successor_in_tree.py](./successor_in_tree.py) [sol](../epi_judge_python_solutions/successor_in_tree.py)
 - [ ] [tree_with_parent_inorder.py](./tree_with_parent_inorder.py) [sol](../epi_judge_python_solutions/tree_with_parent_inorder.py)
-- [ ] [tree_from_preorder_inorder.py](./tree_from_preorder_inorder.py) [sol](../epi_judge_python_solutions/tree_from_preorder_inorder.py)
+- [x] [tree_from_preorder_inorder.py](./tree_from_preorder_inorder.py) [sol](../epi_judge_python_solutions/tree_from_preorder_inorder.py)
 - [ ] [tree_from_preorder_with_null.py](./tree_from_preorder_with_null.py) [sol](../epi_judge_python_solutions/tree_from_preorder_with_null.py)
 - [x] [tree_connect_leaves.py](./tree_connect_leaves.py) [sol](../epi_judge_python_solutions/tree_connect_leaves.py)
 - [ ] [tree_exterior.py](./tree_exterior.py) [sol](../epi_judge_python_solutions/tree_exterior.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 40/218 = 0.18
+PROGRESS: 41/218 = 0.19
