@@ -7,21 +7,21 @@ from test_framework.binary_tree_utils import must_find_node, strip_parent_link
 from test_framework.test_failure import TestFailure
 from test_framework.test_utils import enable_executor_hook
 
+def helper(t, a, b):
+  if not t:
+    return t, 0
+
+  lt, l = helper(t.left, a, b)
+  rt, r = helper(t.right, a, b)
+  if l == 2:
+    return lt, 2
+  elif r == 2:
+    return rt, 2
+  return t, l+r+(t == a)+(t == b)
+
 def lca(tree: BinaryTreeNode, node0: BinaryTreeNode,
         node1: BinaryTreeNode) -> Optional[BinaryTreeNode]:
-  # TODO - you fill in here.
-  def helper(t):
-    if not t:
-      return None, 0
-    lt, l = helper(t.left)
-    rt, r = helper(t.right)
-    if l == 2:
-      return lt, l
-    if r == 2:
-      return rt, r
-    return t, l+r+[node0, node1].count(t)
-
-  node, k = helper(tree)
+  node, count = helper(tree, node0, node1)
   return node
 
 @enable_executor_hook
