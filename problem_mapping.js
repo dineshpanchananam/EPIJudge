@@ -250,7 +250,7 @@ problem_mapping = {
                 "total": 2003
             },
             "Python: sorted_array_remove_dups.py": {
-                "passed": 0,
+                "passed": 2003,
                 "total": 2003
             }
         },
@@ -1760,7 +1760,7 @@ problem_mapping = {
                 "total": 209
             },
             "Python: sort_list.py": {
-                "passed": 0,
+                "passed": 209,
                 "total": 209
             }
         },
@@ -2282,7 +2282,7 @@ problem_mapping = {
                 "total": 546
             },
             "Python: number_of_traversals_staircase.py": {
-                "passed": 0,
+                "passed": 546,
                 "total": 546
             }
         },
@@ -2408,7 +2408,7 @@ problem_mapping = {
                 "total": 201
             },
             "Python: majority_element.py": {
-                "passed": 0,
+                "passed": 201,
                 "total": 201
             }
         },
