@@ -2,5 +2,6 @@ import os
 s = os.popen("git s").read()
 for line in s.split():
   if line.endswith(".py"):
-    print(os.popen(f"python3 {line}").read())
+    os.system(f"yapf -i {line}")
+    os.system(f"python3 {line}")
 

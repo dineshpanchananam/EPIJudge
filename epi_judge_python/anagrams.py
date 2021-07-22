@@ -2,7 +2,6 @@ from typing import List
 
 from test_framework import generic_test, test_utils
 
-
 def find_anagrams(dictionary: List[str]) -> List[List[str]]:
   res = {}
   for word in dictionary:
@@ -11,7 +10,6 @@ def find_anagrams(dictionary: List[str]) -> List[List[str]]:
       res[key] = []
     res[key].append(word)
   return [x for x in res.values() if len(x) > 1]
-
 
 if __name__ == "__main__":
   exit(

@@ -2,7 +2,6 @@ from typing import List
 
 from test_framework import generic_test, test_utils
 
-
 def helper(A, idx, ans):
   if idx == len(A):
     ans.append(list(A))
@@ -12,12 +11,10 @@ def helper(A, idx, ans):
       helper(A, idx+1, ans)
       A[i], A[idx] = A[idx], A[i]
 
-
 def permutations(A: List[int]) -> List[List[int]]:
   ans = []
   helper(A, 0, ans)
   return ans
-
 
 if __name__ == "__main__":
   exit(
