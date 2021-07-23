@@ -74,7 +74,7 @@
 - [ ] [circular_queue.py](./circular_queue.py) [sol](../epi_judge_python_solutions/circular_queue.py)
 - [ ] [queue_from_stacks.py](./queue_from_stacks.py) [sol](../epi_judge_python_solutions/queue_from_stacks.py)
 - [ ] [queue_with_max.py](./queue_with_max.py) [sol](../epi_judge_python_solutions/queue_with_max.py)
-### Binary Trees (7/15)
+### Binary Trees (8/15)
 - [x] [is_tree_balanced.py](./is_tree_balanced.py) [sol](../epi_judge_python_solutions/is_tree_balanced.py)
 - [x] [is_tree_symmetric.py](./is_tree_symmetric.py) [sol](../epi_judge_python_solutions/is_tree_symmetric.py)
 - [x] [lowest_common_ancestor.py](./lowest_common_ancestor.py) [sol](../epi_judge_python_solutions/lowest_common_ancestor.py)
@@ -82,7 +82,7 @@
 - [ ] [sum_root_to_leaf.py](./sum_root_to_leaf.py) [sol](../epi_judge_python_solutions/sum_root_to_leaf.py)
 - [ ] [path_sum.py](./path_sum.py) [sol](../epi_judge_python_solutions/path_sum.py)
 - [x] [tree_inorder.py](./tree_inorder.py) [sol](../epi_judge_python_solutions/tree_inorder.py)
-- [ ] [kth_node_in_tree.py](./kth_node_in_tree.py) [sol](../epi_judge_python_solutions/kth_node_in_tree.py)
+- [x] [kth_node_in_tree.py](./kth_node_in_tree.py) [sol](../epi_judge_python_solutions/kth_node_in_tree.py)
 - [x] [successor_in_tree.py](./successor_in_tree.py) [sol](../epi_judge_python_solutions/successor_in_tree.py)
 - [ ] [tree_with_parent_inorder.py](./tree_with_parent_inorder.py) [sol](../epi_judge_python_solutions/tree_with_parent_inorder.py)
 - [x] [tree_from_preorder_inorder.py](./tree_from_preorder_inorder.py) [sol](../epi_judge_python_solutions/tree_from_preorder_inorder.py)
@@ -90,8 +90,8 @@
 - [x] [tree_connect_leaves.py](./tree_connect_leaves.py) [sol](../epi_judge_python_solutions/tree_connect_leaves.py)
 - [ ] [tree_exterior.py](./tree_exterior.py) [sol](../epi_judge_python_solutions/tree_exterior.py)
 - [ ] [tree_right_sibling.py](./tree_right_sibling.py) [sol](../epi_judge_python_solutions/tree_right_sibling.py)
-### Heaps (0/6)
-- [ ] [sorted_arrays_merge.py](./sorted_arrays_merge.py) [sol](../epi_judge_python_solutions/sorted_arrays_merge.py)
+### Heaps (1/6)
+- [x] [sorted_arrays_merge.py](./sorted_arrays_merge.py) [sol](../epi_judge_python_solutions/sorted_arrays_merge.py)
 - [ ] [sort_increasing_decreasing_array.py](./sort_increasing_decreasing_array.py) [sol](../epi_judge_python_solutions/sort_increasing_decreasing_array.py)
 - [ ] [sort_almost_sorted_array.py](./sort_almost_sorted_array.py) [sol](../epi_judge_python_solutions/sort_almost_sorted_array.py)
 - [ ] [k_closest_stars.py](./k_closest_stars.py) [sol](../epi_judge_python_solutions/k_closest_stars.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 41/218 = 0.19
+PROGRESS: 43/218 = 0.20
