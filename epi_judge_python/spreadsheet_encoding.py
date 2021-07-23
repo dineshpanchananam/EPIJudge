@@ -1,8 +1,10 @@
 from test_framework import generic_test
 
 def ss_decode_col_id(col: str) -> int:
-  # TODO - you fill in here.
-  return 0
+  s = 0
+  for c in col:
+    s = 26*s+(ord(c)-64)
+  return s
 
 if __name__ == '__main__':
   exit(

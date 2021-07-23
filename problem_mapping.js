@@ -518,7 +518,7 @@ problem_mapping = {
                 "total": 10000
             },
             "Python: spreadsheet_encoding.py": {
-                "passed": 0,
+                "passed": 10000,
                 "total": 10000
             }
         },
@@ -726,7 +726,7 @@ problem_mapping = {
                 "total": 102
             },
             "Python: is_list_cyclic.py": {
-                "passed": 2,
+                "passed": 102,
                 "total": 102
             }
         },
@@ -1322,7 +1322,7 @@ problem_mapping = {
                 "total": 501
             },
             "Python: search_entry_equal_to_index.py": {
-                "passed": 0,
+                "passed": 501,
                 "total": 501
             }
         },
@@ -2326,7 +2326,7 @@ problem_mapping = {
                 "total": 49999
             },
             "Python: making_change.py": {
-                "passed": 0,
+                "passed": 49999,
                 "total": 49999
             }
         },
