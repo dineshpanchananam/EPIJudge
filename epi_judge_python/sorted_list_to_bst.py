@@ -11,8 +11,16 @@ from test_framework.test_utils import enable_executor_hook
 # The length of the list is given.
 def build_bst_from_sorted_doubly_list(l: DoublyListNode,
                                       n: int) -> Optional[DoublyListNode]:
-  # TODO - you fill in here.
-  return None
+  if n == 0:
+    return None
+  root = l
+  for _ in range(n//2):
+    root = root.next
+  left = build_bst_from_sorted_doubly_list(l, n//2)
+  right = build_bst_from_sorted_doubly_list(root.next, n-1-n//2)
+  root.prev = left
+  root.next = right
+  return root
 
 def compare_vector_and_tree(tree, it):
   if not tree:

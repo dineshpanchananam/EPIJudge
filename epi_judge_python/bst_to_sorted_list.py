@@ -7,8 +7,21 @@ from test_framework.test_failure import TestFailure
 from test_framework.test_utils import enable_executor_hook
 
 def bst_to_doubly_linked_list(tree: BstNode) -> Optional[BstNode]:
-  # TODO - you fill in here.
-  return None
+  if not tree:
+    return
+  left = bst_to_doubly_linked_list(tree.left)
+  right = bst_to_doubly_linked_list(tree.right)
+  tree.right = right
+  if right: right.left = tree
+  if not left:
+    return tree
+
+  c = left
+  while c and c.right:
+    c = c.right
+  c.right = tree
+  tree.left = c
+  return left
 
 @enable_executor_hook
 def bst_to_doubly_linked_list_wrapper(executor, tree):

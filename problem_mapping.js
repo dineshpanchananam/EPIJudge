@@ -1464,7 +1464,7 @@ problem_mapping = {
                 "total": 305
             },
             "Python: is_string_permutable_to_palindrome.py": {
-                "passed": 0,
+                "passed": 305,
                 "total": 305
             }
         },
@@ -2184,7 +2184,7 @@ problem_mapping = {
                 "total": 1775
             },
             "Python: number_of_traversals_matrix.py": {
-                "passed": 0,
+                "passed": 1775,
                 "total": 1775
             }
         },
@@ -2832,7 +2832,7 @@ problem_mapping = {
                 "total": 100
             },
             "Python: sorted_list_to_bst.py": {
-                "passed": 0,
+                "passed": 100,
                 "total": 100
             }
         },
@@ -2846,7 +2846,7 @@ problem_mapping = {
                 "total": 950
             },
             "Python: bst_to_sorted_list.py": {
-                "passed": 0,
+                "passed": 950,
                 "total": 950
             }
         },
