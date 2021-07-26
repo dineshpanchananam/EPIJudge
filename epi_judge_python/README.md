@@ -186,11 +186,11 @@
 - [ ] [refueling_schedule.py](./refueling_schedule.py) [sol](../epi_judge_python_solutions/refueling_schedule.py)
 - [ ] [max_trapped_water.py](./max_trapped_water.py) [sol](../epi_judge_python_solutions/max_trapped_water.py)
 - [ ] [largest_rectangle_under_skyline.py](./largest_rectangle_under_skyline.py) [sol](../epi_judge_python_solutions/largest_rectangle_under_skyline.py)
-### Graphs (0/8)
+### Graphs (1/8)
 - [ ] [search_maze.py](./search_maze.py) [sol](../epi_judge_python_solutions/search_maze.py)
 - [ ] [matrix_connected_regions.py](./matrix_connected_regions.py) [sol](../epi_judge_python_solutions/matrix_connected_regions.py)
 - [ ] [matrix_enclosed_regions.py](./matrix_enclosed_regions.py) [sol](../epi_judge_python_solutions/matrix_enclosed_regions.py)
-- [ ] [deadlock_detection.py](./deadlock_detection.py) [sol](../epi_judge_python_solutions/deadlock_detection.py)
+- [x] [deadlock_detection.py](./deadlock_detection.py) [sol](../epi_judge_python_solutions/deadlock_detection.py)
 - [ ] [graph_clone.py](./graph_clone.py) [sol](../epi_judge_python_solutions/graph_clone.py)
 - [ ] [is_circuit_wirable.py](./is_circuit_wirable.py) [sol](../epi_judge_python_solutions/is_circuit_wirable.py)
 - [ ] [string_transformability.py](./string_transformability.py) [sol](../epi_judge_python_solutions/string_transformability.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 74/218 = 0.34
+PROGRESS: 75/218 = 0.34

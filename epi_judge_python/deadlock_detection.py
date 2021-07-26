@@ -9,8 +9,23 @@ class GraphVertex:
     self.edges: List['GraphVertex'] = []
 
 def is_deadlocked(graph: List[GraphVertex]) -> bool:
-  # TODO - you fill in here.
-  return True
+  n = len(graph)
+  in_deg = {v: 0 for v in graph}
+  for v in graph:
+    for n in v.edges:
+      in_deg[n] += 1
+  from collections import deque
+  q = deque([v for v in graph if in_deg[v] == 0])
+  count = 0
+  while q:
+    node = q.pop()
+    count += 1
+    for ngbr in node.edges:
+      in_deg[ngbr] -= 1
+      if in_deg[ngbr] == 0:
+        q.append(ngbr)
+
+  return count != len(graph)
 
 @enable_executor_hook
 def is_deadlocked_wrapper(executor, num_nodes, edges):
