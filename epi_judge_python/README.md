@@ -47,7 +47,7 @@
 - [ ] [snake_string.py](./snake_string.py) [sol](../epi_judge_python_solutions/snake_string.py)
 - [x] [run_length_compression.py](./run_length_compression.py) [sol](../epi_judge_python_solutions/run_length_compression.py)
 - [ ] [substring_match.py](./substring_match.py) [sol](../epi_judge_python_solutions/substring_match.py)
-### Linked Lists (11/16)
+### Linked Lists (12/16)
 - [x] [delete_from_list.py](./delete_from_list.py) [sol](../epi_judge_python_solutions/delete_from_list.py)
 - [x] [insert_in_list.py](./insert_in_list.py) [sol](../epi_judge_python_solutions/insert_in_list.py)
 - [x] [search_in_list.py](./search_in_list.py) [sol](../epi_judge_python_solutions/search_in_list.py)
@@ -62,7 +62,7 @@
 - [ ] [list_cyclic_right_shift.py](./list_cyclic_right_shift.py) [sol](../epi_judge_python_solutions/list_cyclic_right_shift.py)
 - [ ] [even_odd_list_merge.py](./even_odd_list_merge.py) [sol](../epi_judge_python_solutions/even_odd_list_merge.py)
 - [x] [is_list_palindromic.py](./is_list_palindromic.py) [sol](../epi_judge_python_solutions/is_list_palindromic.py)
-- [ ] [pivot_list.py](./pivot_list.py) [sol](../epi_judge_python_solutions/pivot_list.py)
+- [x] [pivot_list.py](./pivot_list.py) [sol](../epi_judge_python_solutions/pivot_list.py)
 - [x] [int_as_list_add.py](./int_as_list_add.py) [sol](../epi_judge_python_solutions/int_as_list_add.py)
 ### Stacks and Queues (5/9)
 - [x] [stack_with_max.py](./stack_with_max.py) [sol](../epi_judge_python_solutions/stack_with_max.py)
@@ -108,7 +108,7 @@
 - [ ] [kth_largest_in_array.py](./kth_largest_in_array.py) [sol](../epi_judge_python_solutions/kth_largest_in_array.py)
 - [ ] [absent_value_array.py](./absent_value_array.py) [sol](../epi_judge_python_solutions/absent_value_array.py)
 - [ ] [search_for_missing_element.py](./search_for_missing_element.py) [sol](../epi_judge_python_solutions/search_for_missing_element.py)
-### Hash Tables (2/12)
+### Hash Tables (3/12)
 - [x] [anagrams.py](./anagrams.py) [sol](../epi_judge_python_solutions/anagrams.py)
 - [x] [is_string_permutable_to_palindrome.py](./is_string_permutable_to_palindrome.py) [sol](../epi_judge_python_solutions/is_string_permutable_to_palindrome.py)
 - [ ] [is_anonymous_letter_constructible.py](./is_anonymous_letter_constructible.py) [sol](../epi_judge_python_solutions/is_anonymous_letter_constructible.py)
@@ -120,7 +120,7 @@
 - [ ] [longest_subarray_with_distinct_values.py](./longest_subarray_with_distinct_values.py) [sol](../epi_judge_python_solutions/longest_subarray_with_distinct_values.py)
 - [ ] [longest_contained_interval.py](./longest_contained_interval.py) [sol](../epi_judge_python_solutions/longest_contained_interval.py)
 - [ ] [string_decompositions_into_dictionary_words.py](./string_decompositions_into_dictionary_words.py) [sol](../epi_judge_python_solutions/string_decompositions_into_dictionary_words.py)
-- [ ] [collatz_checker.py](./collatz_checker.py) [sol](../epi_judge_python_solutions/collatz_checker.py)
+- [x] [collatz_checker.py](./collatz_checker.py) [sol](../epi_judge_python_solutions/collatz_checker.py)
 ### Sorting (2/12)
 - [ ] [intersect_sorted_arrays.py](./intersect_sorted_arrays.py) [sol](../epi_judge_python_solutions/intersect_sorted_arrays.py)
 - [ ] [two_sorted_arrays_merge.py](./two_sorted_arrays_merge.py) [sol](../epi_judge_python_solutions/two_sorted_arrays_merge.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 70/218 = 0.32
+PROGRESS: 72/218 = 0.33

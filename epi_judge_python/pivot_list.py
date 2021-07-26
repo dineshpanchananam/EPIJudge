@@ -7,8 +7,48 @@ from test_framework.test_failure import TestFailure
 from test_framework.test_utils import enable_executor_hook
 
 def list_pivoting(l: ListNode, x: int) -> Optional[ListNode]:
-  # TODO - you fill in here.
-  return None
+  le = lp = ListNode()
+  eq = ep = ListNode()
+  gt = gp = ListNode()
+  while l:
+    if l.data == x:
+      ep.next = l
+      ep = ep.next
+    elif l.data > x:
+      gp.next = l
+      gp = gp.next
+    else:
+      lp.next = l
+      lp = lp.next
+    l = l.next
+
+  gp.next = None
+  ep.next = gt.next
+  lp.next = eq.next
+  return le.next
+
+  # lp = ep = gp = None
+  # while l:
+  #   next = l.next
+  #   if l.data < x:
+  #     l.next = lp
+  #     lp = l
+  #   elif l.data == x:
+  #     l.next = ep
+  #     ep = l
+  #   else:
+  #     l.next = gp
+  #     gp = l
+  #   l = next
+
+  # pp = None
+  # for part in [gp, ep, lp]:
+  #   while part:
+  #     next = part.next
+  #     part.next = pp
+  #     pp = part
+  #     part = next
+  # return pp
 
 def linked_to_list(l):
   v = list()

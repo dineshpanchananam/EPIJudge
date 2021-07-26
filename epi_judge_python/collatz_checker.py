@@ -1,8 +1,11 @@
 from test_framework import generic_test
 
 def test_collatz_conjecture(n: int) -> bool:
-  # TODO - you fill in here.
-  return False
+  s = {1}
+  while n not in s:
+    s.add(n)
+    n = n//2 if n%2 == 0 else 3*n+1
+  return n == 1
 
 if __name__ == '__main__':
   exit(
