@@ -3,8 +3,14 @@ from typing import List
 from test_framework import generic_test
 
 def find_all_substrings(s: str, words: List[str]) -> List[int]:
-  # TODO - you fill in here.
-  return []
+  mp = set()
+  if not s:
+    return []
+  n = len(s)
+  last = ''
+  for i in range(n):
+    last += s[i]
+    if last 
 
 if __name__ == '__main__':
   exit(
