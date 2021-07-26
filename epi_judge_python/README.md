@@ -195,12 +195,12 @@
 - [ ] [is_circuit_wirable.py](./is_circuit_wirable.py) [sol](../epi_judge_python_solutions/is_circuit_wirable.py)
 - [ ] [string_transformability.py](./string_transformability.py) [sol](../epi_judge_python_solutions/string_transformability.py)
 - [ ] [max_teams_in_photograph.py](./max_teams_in_photograph.py) [sol](../epi_judge_python_solutions/max_teams_in_photograph.py)
-### Honors Class (3/36)
+### Honors Class (4/36)
 - [x] [gcd.py](./gcd.py) [sol](../epi_judge_python_solutions/gcd.py)
 - [ ] [first_missing_positive_entry.py](./first_missing_positive_entry.py) [sol](../epi_judge_python_solutions/first_missing_positive_entry.py)
 - [ ] [buy_and_sell_stock_k_times.py](./buy_and_sell_stock_k_times.py) [sol](../epi_judge_python_solutions/buy_and_sell_stock_k_times.py)
 - [ ] [max_product_all_but_one.py](./max_product_all_but_one.py) [sol](../epi_judge_python_solutions/max_product_all_but_one.py)
-- [ ] [longest_increasing_subarray.py](./longest_increasing_subarray.py) [sol](../epi_judge_python_solutions/longest_increasing_subarray.py)
+- [x] [longest_increasing_subarray.py](./longest_increasing_subarray.py) [sol](../epi_judge_python_solutions/longest_increasing_subarray.py)
 - [ ] [rotate_array.py](./rotate_array.py) [sol](../epi_judge_python_solutions/rotate_array.py)
 - [ ] [rook_attack.py](./rook_attack.py) [sol](../epi_judge_python_solutions/rook_attack.py)
 - [ ] [left_right_justify_text.py](./left_right_justify_text.py) [sol](../epi_judge_python_solutions/left_right_justify_text.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 76/218 = 0.35
+PROGRESS: 77/218 = 0.35

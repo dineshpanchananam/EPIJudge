@@ -6,8 +6,18 @@ from test_framework import generic_test
 Subarray = collections.namedtuple('Subarray', ('start', 'end'))
 
 def find_longest_increasing_subarray(A: List[int]) -> Subarray:
-  # TODO - you fill in here.
-  return Subarray(0, 0)
+  A.append(float('-inf'))
+  n = len(A)
+  streak, mx = 1, 1
+  ans = 0
+  for i in range(1, n):
+    if A[i] > A[i-1]:
+      streak += 1
+    else:
+      if streak > mx:
+        mx, ans = streak, i-1
+      streak = 1
+  return Subarray(ans-mx+1, ans)
 
 def find_longest_increasing_subarray_wrapper(A):
   result = find_longest_increasing_subarray(A)
