@@ -8,8 +8,17 @@ from test_framework.test_utils import enable_executor_hook
 NUM_PEGS = 3
 
 def compute_tower_hanoi(num_rings: int) -> List[List[int]]:
-  # TODO - you fill in here.
-  return []
+  def helper(rings, f, t, u):
+    if rings > 0:
+      helper(rings-1, f, u, t)
+      pegs[t].append(pegs[f].pop())
+      result.append([f, t])
+      helper(rings-1, u, t, f)
+
+  result = []
+  pegs = [list(range(num_rings, 0, -1))]+[[] for _ in range(NUM_PEGS-1)]
+  helper(num_rings, 0, 1, 2)
+  return result
 
 @enable_executor_hook
 def compute_tower_hanoi_wrapper(executor, num_rings):

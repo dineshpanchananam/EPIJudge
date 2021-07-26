@@ -9,8 +9,7 @@ from test_framework.test_utils import enable_executor_hook
 Person = collections.namedtuple('Person', ('age', 'name'))
 
 def group_by_age(people: List[Person]) -> None:
-  # TODO - you fill in here.
-  return
+  people.sort(key=lambda x: x.age)
 
 @enable_executor_hook
 def group_by_age_wrapper(executor, people):

@@ -121,7 +121,7 @@
 - [ ] [longest_contained_interval.py](./longest_contained_interval.py) [sol](../epi_judge_python_solutions/longest_contained_interval.py)
 - [ ] [string_decompositions_into_dictionary_words.py](./string_decompositions_into_dictionary_words.py) [sol](../epi_judge_python_solutions/string_decompositions_into_dictionary_words.py)
 - [x] [collatz_checker.py](./collatz_checker.py) [sol](../epi_judge_python_solutions/collatz_checker.py)
-### Sorting (2/12)
+### Sorting (3/12)
 - [ ] [intersect_sorted_arrays.py](./intersect_sorted_arrays.py) [sol](../epi_judge_python_solutions/intersect_sorted_arrays.py)
 - [ ] [two_sorted_arrays_merge.py](./two_sorted_arrays_merge.py) [sol](../epi_judge_python_solutions/two_sorted_arrays_merge.py)
 - [x] [h_index.py](./h_index.py) [sol](../epi_judge_python_solutions/h_index.py)
@@ -130,7 +130,7 @@
 - [ ] [calendar_rendering.py](./calendar_rendering.py) [sol](../epi_judge_python_solutions/calendar_rendering.py)
 - [ ] [interval_add.py](./interval_add.py) [sol](../epi_judge_python_solutions/interval_add.py)
 - [ ] [intervals_union.py](./intervals_union.py) [sol](../epi_judge_python_solutions/intervals_union.py)
-- [ ] [group_equal_entries.py](./group_equal_entries.py) [sol](../epi_judge_python_solutions/group_equal_entries.py)
+- [x] [group_equal_entries.py](./group_equal_entries.py) [sol](../epi_judge_python_solutions/group_equal_entries.py)
 - [ ] [is_array_dominated.py](./is_array_dominated.py) [sol](../epi_judge_python_solutions/is_array_dominated.py)
 - [x] [sort_list.py](./sort_list.py) [sol](../epi_judge_python_solutions/sort_list.py)
 - [ ] [find_salary_threshold.py](./find_salary_threshold.py) [sol](../epi_judge_python_solutions/find_salary_threshold.py)
@@ -147,9 +147,9 @@
 - [ ] [descendant_and_ancestor_in_bst.py](./descendant_and_ancestor_in_bst.py) [sol](../epi_judge_python_solutions/descendant_and_ancestor_in_bst.py)
 - [ ] [range_lookup_in_bst.py](./range_lookup_in_bst.py) [sol](../epi_judge_python_solutions/range_lookup_in_bst.py)
 - [ ] [adding_credits.py](./adding_credits.py) [sol](../epi_judge_python_solutions/adding_credits.py)
-### Recursion (3/12)
-- [ ] [euclidean_gcd.py](./euclidean_gcd.py) [sol](../epi_judge_python_solutions/euclidean_gcd.py)
-- [ ] [hanoi.py](./hanoi.py) [sol](../epi_judge_python_solutions/hanoi.py)
+### Recursion (5/12)
+- [x] [euclidean_gcd.py](./euclidean_gcd.py) [sol](../epi_judge_python_solutions/euclidean_gcd.py)
+- [x] [hanoi.py](./hanoi.py) [sol](../epi_judge_python_solutions/hanoi.py)
 - [ ] [phone_number_mnemonic.py](./phone_number_mnemonic.py) [sol](../epi_judge_python_solutions/phone_number_mnemonic.py)
 - [ ] [n_queens.py](./n_queens.py) [sol](../epi_judge_python_solutions/n_queens.py)
 - [x] [permutations.py](./permutations.py) [sol](../epi_judge_python_solutions/permutations.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 77/218 = 0.35
+PROGRESS: 80/218 = 0.37

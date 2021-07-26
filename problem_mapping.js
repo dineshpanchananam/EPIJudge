@@ -1732,7 +1732,7 @@ problem_mapping = {
                 "total": 33
             },
             "Python: group_equal_entries.py": {
-                "passed": 0,
+                "passed": 33,
                 "total": 33
             }
         },
@@ -1960,7 +1960,7 @@ problem_mapping = {
                 "total": 10034
             },
             "Python: euclidean_gcd.py": {
-                "passed": 0,
+                "passed": 10034,
                 "total": 10034
             }
         },
@@ -1974,7 +1974,7 @@ problem_mapping = {
                 "total": 10
             },
             "Python: hanoi.py": {
-                "passed": 0,
+                "passed": 10,
                 "total": 10
             }
         },
