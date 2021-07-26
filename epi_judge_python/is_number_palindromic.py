@@ -1,8 +1,12 @@
 from test_framework import generic_test
+from math import log
 
 def is_palindrome_number(x: int) -> bool:
-  # TODO - you fill in here.
-  return True
+  y, z = 0, abs(x)
+  while z:
+    y = y*10+z%10
+    z //= 10
+  return x == y
 
 if __name__ == '__main__':
   exit(

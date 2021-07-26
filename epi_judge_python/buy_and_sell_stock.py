@@ -3,8 +3,11 @@ from typing import List
 from test_framework import generic_test
 
 def buy_and_sell_stock_once(prices: List[float]) -> float:
-  # TODO - you fill in here.
-  return 0.0
+  bgt, pft = float('inf'), 0
+  for price in prices:
+    bgt = min(bgt, price)
+    pft = max(pft, price-bgt)  # sell
+  return pft
 
 if __name__ == '__main__':
   exit(

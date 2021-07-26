@@ -136,7 +136,7 @@ problem_mapping = {
                 "total": 20000
             },
             "Python: is_number_palindromic.py": {
-                "passed": 0,
+                "passed": 20000,
                 "total": 20000
             }
         },
@@ -264,7 +264,7 @@ problem_mapping = {
                 "total": 402
             },
             "Python: buy_and_sell_stock.py": {
-                "passed": 0,
+                "passed": 402,
                 "total": 402
             }
         },
@@ -460,7 +460,7 @@ problem_mapping = {
                 "total": 35
             },
             "Python: pascal_triangle.py": {
-                "passed": 0,
+                "passed": 35,
                 "total": 35
             }
         }
@@ -560,7 +560,7 @@ problem_mapping = {
                 "total": 103
             },
             "Python: reverse_words.py": {
-                "passed": 0,
+                "passed": 103,
                 "total": 103
             }
         },
@@ -768,7 +768,7 @@ problem_mapping = {
                 "total": 512
             },
             "Python: delete_node_from_list.py": {
-                "passed": 0,
+                "passed": 512,
                 "total": 512
             }
         },
@@ -1066,7 +1066,7 @@ problem_mapping = {
                 "total": 3849
             },
             "Python: sum_root_to_leaf.py": {
-                "passed": 0,
+                "passed": 3849,
                 "total": 3849
             }
         },
@@ -1080,7 +1080,7 @@ problem_mapping = {
                 "total": 7690
             },
             "Python: path_sum.py": {
-                "passed": 0,
+                "passed": 7690,
                 "total": 7690
             }
         },
@@ -1292,7 +1292,7 @@ problem_mapping = {
                 "total": 102
             },
             "Python: k_largest_in_heap.py": {
-                "passed": 0,
+                "passed": 102,
                 "total": 102
             }
         }
@@ -1860,7 +1860,7 @@ problem_mapping = {
                 "total": 950
             },
             "Python: bst_from_preorder.py": {
-                "passed": 0,
+                "passed": 950,
                 "total": 950
             }
         },
