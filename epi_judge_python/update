@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import os  
 s = os.popen("git s").read()
 for line in s.split():

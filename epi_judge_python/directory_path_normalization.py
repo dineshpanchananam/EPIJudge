@@ -1,8 +1,15 @@
 from test_framework import generic_test
 
 def shortest_equivalent_path(path: str) -> str:
-  # TODO - you fill in here.
-  return ''
+  s = []
+  for d in path.split("/"):
+    if d in ".":
+      continue
+    if d == ".." and s and s[-1] != '..':
+      s.pop()
+    else:
+      s.append(d)
+  return ("/" if path.startswith("/") else "")+"/".join(s).rstrip("/")
 
 if __name__ == '__main__':
   exit(
