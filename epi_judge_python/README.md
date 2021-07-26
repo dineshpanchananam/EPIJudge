@@ -97,12 +97,12 @@
 - [ ] [k_closest_stars.py](./k_closest_stars.py) [sol](../epi_judge_python_solutions/k_closest_stars.py)
 - [ ] [online_median.py](./online_median.py) [sol](../epi_judge_python_solutions/online_median.py)
 - [ ] [k_largest_in_heap.py](./k_largest_in_heap.py) [sol](../epi_judge_python_solutions/k_largest_in_heap.py)
-### Searching (1/10)
-- [ ] [search_first_key.py](./search_first_key.py) [sol](../epi_judge_python_solutions/search_first_key.py)
+### Searching (4/10)
+- [x] [search_first_key.py](./search_first_key.py) [sol](../epi_judge_python_solutions/search_first_key.py)
 - [x] [search_entry_equal_to_index.py](./search_entry_equal_to_index.py) [sol](../epi_judge_python_solutions/search_entry_equal_to_index.py)
 - [ ] [search_shifted_sorted_array.py](./search_shifted_sorted_array.py) [sol](../epi_judge_python_solutions/search_shifted_sorted_array.py)
-- [ ] [int_square_root.py](./int_square_root.py) [sol](../epi_judge_python_solutions/int_square_root.py)
-- [ ] [real_square_root.py](./real_square_root.py) [sol](../epi_judge_python_solutions/real_square_root.py)
+- [x] [int_square_root.py](./int_square_root.py) [sol](../epi_judge_python_solutions/int_square_root.py)
+- [x] [real_square_root.py](./real_square_root.py) [sol](../epi_judge_python_solutions/real_square_root.py)
 - [ ] [search_row_col_sorted_matrix.py](./search_row_col_sorted_matrix.py) [sol](../epi_judge_python_solutions/search_row_col_sorted_matrix.py)
 - [ ] [search_for_min_max_in_array.py](./search_for_min_max_in_array.py) [sol](../epi_judge_python_solutions/search_for_min_max_in_array.py)
 - [ ] [kth_largest_in_array.py](./kth_largest_in_array.py) [sol](../epi_judge_python_solutions/kth_largest_in_array.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 51/218 = 0.23
+PROGRESS: 54/218 = 0.25
