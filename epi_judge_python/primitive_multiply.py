@@ -1,8 +1,10 @@
 from test_framework import generic_test
 
 def multiply(x: int, y: int) -> int:
-  # TODO - you fill in here.
-  return 0
+  k = 0
+  while 2*k <= y:
+    y -= 2*k
+    k *= 2
 
 if __name__ == '__main__':
   exit(

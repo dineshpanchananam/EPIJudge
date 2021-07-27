@@ -5,13 +5,21 @@ from test_framework import generic_test
 from test_framework.random_sequence_checker import (
   check_sequence_is_uniformly_random, run_func_with_retries)
 from test_framework.test_utils import enable_executor_hook
+from math import log, ceil
 
 def zero_one_random():
   return random.randrange(2)
 
 def uniform_random(lower_bound: int, upper_bound: int) -> int:
-  # TODO - you fill in here.
-  return 0
+  diff = (upper_bound-lower_bound)+1
+  digs = int(ceil(log(diff, 2)))
+  r = 0
+  for i in range(digs):
+    r = (r << 1)+zero_one_random()
+  r += lower_bound
+  if r <= upper_bound:
+    return r
+  return uniform_random(lower_bound, upper_bound)
 
 @enable_executor_hook
 def uniform_random_wrapper(executor, lower_bound, upper_bound):

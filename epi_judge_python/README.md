@@ -1,4 +1,4 @@
-### Primitive Types (6/12)
+### Primitive Types (7/12)
 - [x] [count_bits.py](./count_bits.py) [sol](../epi_judge_python_solutions/count_bits.py)
 - [x] [parity.py](./parity.py) [sol](../epi_judge_python_solutions/parity.py)
 - [x] [swap_bits.py](./swap_bits.py) [sol](../epi_judge_python_solutions/swap_bits.py)
@@ -9,7 +9,7 @@
 - [x] [power_x_y.py](./power_x_y.py) [sol](../epi_judge_python_solutions/power_x_y.py)
 - [x] [reverse_digits.py](./reverse_digits.py) [sol](../epi_judge_python_solutions/reverse_digits.py)
 - [x] [is_number_palindromic.py](./is_number_palindromic.py) [sol](../epi_judge_python_solutions/is_number_palindromic.py)
-- [ ] [uniform_random_number.py](./uniform_random_number.py) [sol](../epi_judge_python_solutions/uniform_random_number.py)
+- [x] [uniform_random_number.py](./uniform_random_number.py) [sol](../epi_judge_python_solutions/uniform_random_number.py)
 - [ ] [rectangle_intersection.py](./rectangle_intersection.py) [sol](../epi_judge_python_solutions/rectangle_intersection.py)
 ### Arrays (7/21)
 - [ ] [even_odd_array.py](./even_odd_array.py) [sol](../epi_judge_python_solutions/even_odd_array.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 91/218 = 0.42
+PROGRESS: 92/218 = 0.42
