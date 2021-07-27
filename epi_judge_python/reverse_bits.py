@@ -1,8 +1,11 @@
 from test_framework import generic_test
 
 def reverse_bits(x: int) -> int:
-  # TODO - you fill in here.
-  pass
+  y = 0
+  while x:
+    y = (y << 1) | x & 1
+    x >>= 1
+  return y
 
 if __name__ == '__main__':
   exit(

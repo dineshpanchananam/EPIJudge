@@ -24,7 +24,7 @@ problem_mapping = {
                 "total": 10000
             },
             "Python: parity.py": {
-                "passed": 0,
+                "passed": 10000,
                 "total": 10000
             }
         },
@@ -38,7 +38,7 @@ problem_mapping = {
                 "total": 10001
             },
             "Python: swap_bits.py": {
-                "passed": 0,
+                "passed": 10001,
                 "total": 10001
             }
         },
@@ -432,7 +432,7 @@ problem_mapping = {
                 "total": 51
             },
             "Python: spiral_ordering.py": {
-                "passed": 0,
+                "passed": 51,
                 "total": 51
             }
         },
@@ -616,7 +616,7 @@ problem_mapping = {
                 "total": 500
             },
             "Python: snake_string.py": {
-                "passed": 0,
+                "passed": 500,
                 "total": 500
             }
         },

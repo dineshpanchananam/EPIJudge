@@ -1,8 +1,10 @@
 from test_framework import generic_test
 
 def swap_bits(x, i, j):
-  for i in range(i, j+1):
-    x ^= (1 << i)
+  ith = (x >> i) & 1
+  jth = (x >> j) & 1
+  if ith ^ jth:
+    x ^= (1 << i | 1 << j)
   return x
 
 if __name__ == '__main__':
