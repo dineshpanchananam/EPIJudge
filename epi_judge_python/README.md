@@ -147,10 +147,10 @@
 - [ ] [descendant_and_ancestor_in_bst.py](./descendant_and_ancestor_in_bst.py) [sol](../epi_judge_python_solutions/descendant_and_ancestor_in_bst.py)
 - [ ] [range_lookup_in_bst.py](./range_lookup_in_bst.py) [sol](../epi_judge_python_solutions/range_lookup_in_bst.py)
 - [ ] [adding_credits.py](./adding_credits.py) [sol](../epi_judge_python_solutions/adding_credits.py)
-### Recursion (6/12)
+### Recursion (7/12)
 - [x] [euclidean_gcd.py](./euclidean_gcd.py) [sol](../epi_judge_python_solutions/euclidean_gcd.py)
 - [x] [hanoi.py](./hanoi.py) [sol](../epi_judge_python_solutions/hanoi.py)
-- [ ] [phone_number_mnemonic.py](./phone_number_mnemonic.py) [sol](../epi_judge_python_solutions/phone_number_mnemonic.py)
+- [x] [phone_number_mnemonic.py](./phone_number_mnemonic.py) [sol](../epi_judge_python_solutions/phone_number_mnemonic.py)
 - [x] [n_queens.py](./n_queens.py) [sol](../epi_judge_python_solutions/n_queens.py)
 - [x] [permutations.py](./permutations.py) [sol](../epi_judge_python_solutions/permutations.py)
 - [x] [power_set.py](./power_set.py) [sol](../epi_judge_python_solutions/power_set.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 85/218 = 0.39
+PROGRESS: 86/218 = 0.39
