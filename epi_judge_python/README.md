@@ -11,9 +11,9 @@
 - [x] [is_number_palindromic.py](./is_number_palindromic.py) [sol](../epi_judge_python_solutions/is_number_palindromic.py)
 - [x] [uniform_random_number.py](./uniform_random_number.py) [sol](../epi_judge_python_solutions/uniform_random_number.py)
 - [ ] [rectangle_intersection.py](./rectangle_intersection.py) [sol](../epi_judge_python_solutions/rectangle_intersection.py)
-### Arrays (7/21)
-- [ ] [even_odd_array.py](./even_odd_array.py) [sol](../epi_judge_python_solutions/even_odd_array.py)
-- [ ] [dutch_national_flag.py](./dutch_national_flag.py) [sol](../epi_judge_python_solutions/dutch_national_flag.py)
+### Arrays (9/21)
+- [x] [even_odd_array.py](./even_odd_array.py) [sol](../epi_judge_python_solutions/even_odd_array.py)
+- [x] [dutch_national_flag.py](./dutch_national_flag.py) [sol](../epi_judge_python_solutions/dutch_national_flag.py)
 - [x] [int_as_array_increment.py](./int_as_array_increment.py) [sol](../epi_judge_python_solutions/int_as_array_increment.py)
 - [ ] [int_as_array_multiply.py](./int_as_array_multiply.py) [sol](../epi_judge_python_solutions/int_as_array_multiply.py)
 - [x] [advance_by_offsets.py](./advance_by_offsets.py) [sol](../epi_judge_python_solutions/advance_by_offsets.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 92/218 = 0.42
+PROGRESS: 94/218 = 0.43

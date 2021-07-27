@@ -7,8 +7,15 @@ from test_framework.test_failure import TestFailure
 from test_framework.test_utils import enable_executor_hook
 
 def even_odd(A: List[int]) -> None:
-  # TODO - you fill in here.
-  return
+  i, j = 0, len(A)-1
+  while i < j:
+    if A[i]%2 == 0:
+      i += 1
+    elif A[j]%2 == 1:
+      j -= 1
+    elif i < j:
+      A[i], A[j] = A[j], A[i]
+      i, j = i+1, j-1
 
 @enable_executor_hook
 def even_odd_wrapper(executor, A):
