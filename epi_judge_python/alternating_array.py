@@ -6,8 +6,7 @@ from test_framework.test_failure import PropertyName, TestFailure
 from test_framework.test_utils import enable_executor_hook
 
 def rearrange(A: List[int]) -> None:
-  # TODO - you fill in here.
-  return
+  A.sort()
 
 @enable_executor_hook
 def rearrange_wrapper(executor, A):
