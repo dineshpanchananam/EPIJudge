@@ -147,7 +147,7 @@
 - [ ] [descendant_and_ancestor_in_bst.py](./descendant_and_ancestor_in_bst.py) [sol](../epi_judge_python_solutions/descendant_and_ancestor_in_bst.py)
 - [ ] [range_lookup_in_bst.py](./range_lookup_in_bst.py) [sol](../epi_judge_python_solutions/range_lookup_in_bst.py)
 - [ ] [adding_credits.py](./adding_credits.py) [sol](../epi_judge_python_solutions/adding_credits.py)
-### Recursion (7/12)
+### Recursion (8/12)
 - [x] [euclidean_gcd.py](./euclidean_gcd.py) [sol](../epi_judge_python_solutions/euclidean_gcd.py)
 - [x] [hanoi.py](./hanoi.py) [sol](../epi_judge_python_solutions/hanoi.py)
 - [x] [phone_number_mnemonic.py](./phone_number_mnemonic.py) [sol](../epi_judge_python_solutions/phone_number_mnemonic.py)
@@ -157,7 +157,7 @@
 - [x] [combinations.py](./combinations.py) [sol](../epi_judge_python_solutions/combinations.py)
 - [ ] [enumerate_balanced_parentheses.py](./enumerate_balanced_parentheses.py) [sol](../epi_judge_python_solutions/enumerate_balanced_parentheses.py)
 - [ ] [enumerate_palindromic_decompositions.py](./enumerate_palindromic_decompositions.py) [sol](../epi_judge_python_solutions/enumerate_palindromic_decompositions.py)
-- [ ] [enumerate_trees.py](./enumerate_trees.py) [sol](../epi_judge_python_solutions/enumerate_trees.py)
+- [x] [enumerate_trees.py](./enumerate_trees.py) [sol](../epi_judge_python_solutions/enumerate_trees.py)
 - [ ] [sudoku_solve.py](./sudoku_solve.py) [sol](../epi_judge_python_solutions/sudoku_solve.py)
 - [ ] [gray_code.py](./gray_code.py) [sol](../epi_judge_python_solutions/gray_code.py)
 ### Dynamic Programming (9/14)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 99/218 = 0.45
+PROGRESS: 100/218 = 0.46
