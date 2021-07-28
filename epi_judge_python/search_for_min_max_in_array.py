@@ -7,8 +7,11 @@ from test_framework.test_failure import PropertyName
 MinMax = collections.namedtuple('MinMax', ('smallest', 'largest'))
 
 def find_min_max(A: List[int]) -> MinMax:
-  # TODO - you fill in here.
-  return MinMax(0, 0)
+  mn, mx = float('inf'), float('-inf')
+  for i in A:
+    mn = min(mn, i)
+    mx = max(mx, i)
+  return MinMax(mn, mx)
 
 def res_printer(prop, value):
   def fmt(x):
