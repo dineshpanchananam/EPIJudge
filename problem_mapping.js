@@ -712,7 +712,7 @@ problem_mapping = {
                 "total": 210
             },
             "Python: reverse_sublist.py": {
-                "passed": 0,
+                "passed": 210,
                 "total": 210
             }
         },
@@ -810,7 +810,7 @@ problem_mapping = {
                 "total": 507
             },
             "Python: list_cyclic_right_shift.py": {
-                "passed": 0,
+                "passed": 507,
                 "total": 507
             }
         },
