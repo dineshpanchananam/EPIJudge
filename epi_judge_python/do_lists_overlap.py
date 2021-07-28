@@ -7,7 +7,8 @@ from test_framework.test_failure import TestFailure
 from test_framework.test_utils import enable_executor_hook
 
 def overlapping_lists(l0: ListNode, l1: ListNode) -> Optional[ListNode]:
-  pass
+  # TODO - you fill in here.
+  return -1
 
 @enable_executor_hook
 def overlapping_lists_wrapper(executor, l0, l1, common, cycle0, cycle1):
