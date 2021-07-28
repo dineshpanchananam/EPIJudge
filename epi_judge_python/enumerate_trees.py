@@ -16,7 +16,7 @@ def generate_all_binary_trees(
     rights = generate_all_binary_trees(num_nodes-1-i)
     for l in lefts:
       for r in rights:
-        trees.append(BinaryTreeNode(data=i+1, left=l, right=r))
+        trees.append(BinaryTreeNode(left=l, right=r))
   return trees
 
 def serialize_structure(tree):
