@@ -4,8 +4,22 @@ from list_node import ListNode
 from test_framework import generic_test
 
 def even_odd_merge(L: ListNode) -> Optional[ListNode]:
-  # TODO - you fill in here.
-  return None
+  turn = 1
+  evens = e_ptr = ListNode()
+  odds = o_ptr = ListNode()
+  while L:
+    if turn:
+      e_ptr.next = L
+      e_ptr = e_ptr.next
+    else:
+      o_ptr.next = L
+      o_ptr = o_ptr.next
+    turn ^= 1
+    L = L.next
+
+  o_ptr.next = None
+  e_ptr.next = odds.next
+  return evens.next
 
 if __name__ == '__main__':
   exit(
