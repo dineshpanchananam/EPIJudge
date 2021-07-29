@@ -108,14 +108,14 @@
 - [ ] [kth_largest_in_array.py](./kth_largest_in_array.py) [sol](../epi_judge_python_solutions/kth_largest_in_array.py)
 - [ ] [absent_value_array.py](./absent_value_array.py) [sol](../epi_judge_python_solutions/absent_value_array.py)
 - [ ] [search_for_missing_element.py](./search_for_missing_element.py) [sol](../epi_judge_python_solutions/search_for_missing_element.py)
-### Hash Tables (5/12)
+### Hash Tables (6/12)
 - [x] [anagrams.py](./anagrams.py) [sol](../epi_judge_python_solutions/anagrams.py)
 - [x] [is_string_permutable_to_palindrome.py](./is_string_permutable_to_palindrome.py) [sol](../epi_judge_python_solutions/is_string_permutable_to_palindrome.py)
 - [ ] [is_anonymous_letter_constructible.py](./is_anonymous_letter_constructible.py) [sol](../epi_judge_python_solutions/is_anonymous_letter_constructible.py)
 - [x] [lru_cache.py](./lru_cache.py) [sol](../epi_judge_python_solutions/lru_cache.py)
 - [ ] [lowest_common_ancestor_close_ancestor.py](./lowest_common_ancestor_close_ancestor.py) [sol](../epi_judge_python_solutions/lowest_common_ancestor_close_ancestor.py)
 - [ ] [nearest_repeated_entries.py](./nearest_repeated_entries.py) [sol](../epi_judge_python_solutions/nearest_repeated_entries.py)
-- [ ] [smallest_subarray_covering_set.py](./smallest_subarray_covering_set.py) [sol](../epi_judge_python_solutions/smallest_subarray_covering_set.py)
+- [x] [smallest_subarray_covering_set.py](./smallest_subarray_covering_set.py) [sol](../epi_judge_python_solutions/smallest_subarray_covering_set.py)
 - [ ] [smallest_subarray_covering_all_values.py](./smallest_subarray_covering_all_values.py) [sol](../epi_judge_python_solutions/smallest_subarray_covering_all_values.py)
 - [x] [longest_subarray_with_distinct_values.py](./longest_subarray_with_distinct_values.py) [sol](../epi_judge_python_solutions/longest_subarray_with_distinct_values.py)
 - [ ] [longest_contained_interval.py](./longest_contained_interval.py) [sol](../epi_judge_python_solutions/longest_contained_interval.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 112/218 = 0.51
+PROGRESS: 113/218 = 0.52

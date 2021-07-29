@@ -8,9 +8,9 @@ def online_median(sequence: Iterator[int]) -> List[float]:
   medians = []
   for n, s in enumerate(sequence, 1):
     h.heappush(mx_hp, -h.heappushpop(mn_hp, s))
-    if len(mx_hp) > len(mn_hp):
+    if len(mx_hp) > len(mn_hp)+1:
       h.heappush(mn_hp, -h.heappop(mx_hp))
-    medians.append(mn_hp[0] if n & 1 else (mn_hp[0]-mx_hp[0])/2.0)
+    medians.append(-mx_hp[0] if n & 1 else (mn_hp[0]-mx_hp[0])/2.0)
   return medians
 
   # print()
