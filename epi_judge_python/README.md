@@ -90,12 +90,12 @@
 - [x] [tree_connect_leaves.py](./tree_connect_leaves.py) [sol](../epi_judge_python_solutions/tree_connect_leaves.py)
 - [ ] [tree_exterior.py](./tree_exterior.py) [sol](../epi_judge_python_solutions/tree_exterior.py)
 - [ ] [tree_right_sibling.py](./tree_right_sibling.py) [sol](../epi_judge_python_solutions/tree_right_sibling.py)
-### Heaps (2/6)
+### Heaps (3/6)
 - [x] [sorted_arrays_merge.py](./sorted_arrays_merge.py) [sol](../epi_judge_python_solutions/sorted_arrays_merge.py)
 - [ ] [sort_increasing_decreasing_array.py](./sort_increasing_decreasing_array.py) [sol](../epi_judge_python_solutions/sort_increasing_decreasing_array.py)
 - [ ] [sort_almost_sorted_array.py](./sort_almost_sorted_array.py) [sol](../epi_judge_python_solutions/sort_almost_sorted_array.py)
 - [ ] [k_closest_stars.py](./k_closest_stars.py) [sol](../epi_judge_python_solutions/k_closest_stars.py)
-- [ ] [online_median.py](./online_median.py) [sol](../epi_judge_python_solutions/online_median.py)
+- [x] [online_median.py](./online_median.py) [sol](../epi_judge_python_solutions/online_median.py)
 - [x] [k_largest_in_heap.py](./k_largest_in_heap.py) [sol](../epi_judge_python_solutions/k_largest_in_heap.py)
 ### Searching (5/10)
 - [x] [search_first_key.py](./search_first_key.py) [sol](../epi_judge_python_solutions/search_first_key.py)
@@ -121,9 +121,9 @@
 - [ ] [longest_contained_interval.py](./longest_contained_interval.py) [sol](../epi_judge_python_solutions/longest_contained_interval.py)
 - [ ] [string_decompositions_into_dictionary_words.py](./string_decompositions_into_dictionary_words.py) [sol](../epi_judge_python_solutions/string_decompositions_into_dictionary_words.py)
 - [x] [collatz_checker.py](./collatz_checker.py) [sol](../epi_judge_python_solutions/collatz_checker.py)
-### Sorting (3/12)
-- [ ] [intersect_sorted_arrays.py](./intersect_sorted_arrays.py) [sol](../epi_judge_python_solutions/intersect_sorted_arrays.py)
-- [ ] [two_sorted_arrays_merge.py](./two_sorted_arrays_merge.py) [sol](../epi_judge_python_solutions/two_sorted_arrays_merge.py)
+### Sorting (5/12)
+- [x] [intersect_sorted_arrays.py](./intersect_sorted_arrays.py) [sol](../epi_judge_python_solutions/intersect_sorted_arrays.py)
+- [x] [two_sorted_arrays_merge.py](./two_sorted_arrays_merge.py) [sol](../epi_judge_python_solutions/two_sorted_arrays_merge.py)
 - [x] [h_index.py](./h_index.py) [sol](../epi_judge_python_solutions/h_index.py)
 - [ ] [remove_duplicates.py](./remove_duplicates.py) [sol](../epi_judge_python_solutions/remove_duplicates.py)
 - [ ] [smallest_nonconstructible_value.py](./smallest_nonconstructible_value.py) [sol](../epi_judge_python_solutions/smallest_nonconstructible_value.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 106/218 = 0.49
+PROGRESS: 109/218 = 0.50

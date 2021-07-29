@@ -1192,7 +1192,7 @@ problem_mapping = {
                 "total": 3852
             },
             "Python: tree_exterior.py": {
-                "passed": 0,
+                "passed": 3851,
                 "total": 3852
             }
         },
@@ -1278,7 +1278,7 @@ problem_mapping = {
                 "total": 55
             },
             "Python: online_median.py": {
-                "passed": 0,
+                "passed": 55,
                 "total": 55
             }
         },
@@ -1620,7 +1620,7 @@ problem_mapping = {
                 "total": 202
             },
             "Python: intersect_sorted_arrays.py": {
-                "passed": 0,
+                "passed": 202,
                 "total": 202
             }
         },
@@ -1634,7 +1634,7 @@ problem_mapping = {
                 "total": 201
             },
             "Python: two_sorted_arrays_merge.py": {
-                "passed": 0,
+                "passed": 201,
                 "total": 201
             }
         },
