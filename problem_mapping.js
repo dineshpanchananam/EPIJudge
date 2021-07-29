@@ -1236,7 +1236,7 @@ problem_mapping = {
                 "total": 203
             },
             "Python: sort_increasing_decreasing_array.py": {
-                "passed": 0,
+                "passed": 203,
                 "total": 203
             }
         },
@@ -1406,7 +1406,7 @@ problem_mapping = {
                 "total": 503
             },
             "Python: kth_largest_in_array.py": {
-                "passed": 0,
+                "passed": 503,
                 "total": 503
             }
         },
@@ -2622,7 +2622,7 @@ problem_mapping = {
                 "total": 35
             },
             "Python: max_product_all_but_one.py": {
-                "passed": 0,
+                "passed": 35,
                 "total": 35
             }
         },
