@@ -12,10 +12,11 @@ def evaluate(expression: str) -> int:
   values = []
   for token in expression.split(","):
     if token in ops:
-      values.append(ops[token](values.pop(), values().pop()))
+      a, b = values.pop(), values.pop()
+      values.append(ops[token](b, a))
     else:
       values.append(int(token))
-  return values[-1]
+  return values[0]
 
 if __name__ == '__main__':
   exit(
