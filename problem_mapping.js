@@ -1718,7 +1718,7 @@ problem_mapping = {
                 "total": 191
             },
             "Python: intervals_union.py": {
-                "passed": 0,
+                "passed": 191,
                 "total": 191
             }
         },
@@ -2058,7 +2058,7 @@ problem_mapping = {
                 "total": 11
             },
             "Python: enumerate_balanced_parentheses.py": {
-                "passed": 0,
+                "passed": 11,
                 "total": 11
             }
         },
