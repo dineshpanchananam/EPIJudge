@@ -11,7 +11,7 @@
 - [x] [is_number_palindromic.py](./is_number_palindromic.py) [sol](../epi_judge_python_solutions/is_number_palindromic.py)
 - [x] [uniform_random_number.py](./uniform_random_number.py) [sol](../epi_judge_python_solutions/uniform_random_number.py)
 - [ ] [rectangle_intersection.py](./rectangle_intersection.py) [sol](../epi_judge_python_solutions/rectangle_intersection.py)
-### Arrays (11/21)
+### Arrays (12/21)
 - [x] [even_odd_array.py](./even_odd_array.py) [sol](../epi_judge_python_solutions/even_odd_array.py)
 - [x] [dutch_national_flag.py](./dutch_national_flag.py) [sol](../epi_judge_python_solutions/dutch_national_flag.py)
 - [x] [int_as_array_increment.py](./int_as_array_increment.py) [sol](../epi_judge_python_solutions/int_as_array_increment.py)
@@ -29,7 +29,7 @@
 - [ ] [random_permutation.py](./random_permutation.py) [sol](../epi_judge_python_solutions/random_permutation.py)
 - [ ] [random_subset.py](./random_subset.py) [sol](../epi_judge_python_solutions/random_subset.py)
 - [ ] [nonuniform_random_number.py](./nonuniform_random_number.py) [sol](../epi_judge_python_solutions/nonuniform_random_number.py)
-- [ ] [is_valid_sudoku.py](./is_valid_sudoku.py) [sol](../epi_judge_python_solutions/is_valid_sudoku.py)
+- [x] [is_valid_sudoku.py](./is_valid_sudoku.py) [sol](../epi_judge_python_solutions/is_valid_sudoku.py)
 - [x] [spiral_ordering.py](./spiral_ordering.py) [sol](../epi_judge_python_solutions/spiral_ordering.py)
 - [x] [matrix_rotation.py](./matrix_rotation.py) [sol](../epi_judge_python_solutions/matrix_rotation.py)
 - [x] [pascal_triangle.py](./pascal_triangle.py) [sol](../epi_judge_python_solutions/pascal_triangle.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 114/218 = 0.52
+PROGRESS: 115/218 = 0.53
