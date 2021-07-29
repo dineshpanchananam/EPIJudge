@@ -64,9 +64,9 @@
 - [x] [is_list_palindromic.py](./is_list_palindromic.py) [sol](../epi_judge_python_solutions/is_list_palindromic.py)
 - [x] [pivot_list.py](./pivot_list.py) [sol](../epi_judge_python_solutions/pivot_list.py)
 - [x] [int_as_list_add.py](./int_as_list_add.py) [sol](../epi_judge_python_solutions/int_as_list_add.py)
-### Stacks and Queues (6/9)
+### Stacks and Queues (7/9)
 - [x] [stack_with_max.py](./stack_with_max.py) [sol](../epi_judge_python_solutions/stack_with_max.py)
-- [ ] [evaluate_rpn.py](./evaluate_rpn.py) [sol](../epi_judge_python_solutions/evaluate_rpn.py)
+- [x] [evaluate_rpn.py](./evaluate_rpn.py) [sol](../epi_judge_python_solutions/evaluate_rpn.py)
 - [x] [is_valid_parenthesization.py](./is_valid_parenthesization.py) [sol](../epi_judge_python_solutions/is_valid_parenthesization.py)
 - [x] [directory_path_normalization.py](./directory_path_normalization.py) [sol](../epi_judge_python_solutions/directory_path_normalization.py)
 - [ ] [sunset_view.py](./sunset_view.py) [sol](../epi_judge_python_solutions/sunset_view.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 115/218 = 0.53
+PROGRESS: 116/218 = 0.53
