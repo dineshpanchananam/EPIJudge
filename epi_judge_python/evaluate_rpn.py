@@ -3,22 +3,19 @@ from test_framework import generic_test
 from operator import add, sub, mul, floordiv as div
 
 def evaluate(expression: str) -> int:
-  st = expression.split(",")[::-1]
-  values = []
-  cmds = {
+  ops = {
     '+': add,
     '-': sub,
     '*': mul,
     '/': div,
   }
-  while st:
-    cmd = st.pop()
-    if cmd in "-+/*":
-      a, b = values.pop(), values.pop()
-      values.append(cmds[cmd](b, a))
+  values = []
+  for token in expression.split(","):
+    if token in ops:
+      values.append(ops[token](values.pop(), values().pop()))
     else:
-      values.append(int(cmd))
-  return values[0]
+      values.append(int(token))
+  return values[-1]
 
 if __name__ == '__main__':
   exit(
