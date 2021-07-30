@@ -186,8 +186,8 @@
 - [ ] [refueling_schedule.py](./refueling_schedule.py) [sol](../epi_judge_python_solutions/refueling_schedule.py)
 - [ ] [max_trapped_water.py](./max_trapped_water.py) [sol](../epi_judge_python_solutions/max_trapped_water.py)
 - [ ] [largest_rectangle_under_skyline.py](./largest_rectangle_under_skyline.py) [sol](../epi_judge_python_solutions/largest_rectangle_under_skyline.py)
-### Graphs (1/8)
-- [ ] [search_maze.py](./search_maze.py) [sol](../epi_judge_python_solutions/search_maze.py)
+### Graphs (2/8)
+- [x] [search_maze.py](./search_maze.py) [sol](../epi_judge_python_solutions/search_maze.py)
 - [ ] [matrix_connected_regions.py](./matrix_connected_regions.py) [sol](../epi_judge_python_solutions/matrix_connected_regions.py)
 - [ ] [matrix_enclosed_regions.py](./matrix_enclosed_regions.py) [sol](../epi_judge_python_solutions/matrix_enclosed_regions.py)
 - [x] [deadlock_detection.py](./deadlock_detection.py) [sol](../epi_judge_python_solutions/deadlock_detection.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 131/218 = 0.60
+PROGRESS: 132/218 = 0.61
