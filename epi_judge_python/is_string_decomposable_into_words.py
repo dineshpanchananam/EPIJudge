@@ -10,19 +10,16 @@ def decompose_into_dictionary_words(domain: str,
                                     dictionary: Set[str]) -> List[str]:
 
   n = len(domain)
-  dp = [True]+[False]*n
-  words = {}
+  words = {0: 0}
 
   for i in range(n):
-    if dp[i]:
+    if i in words:
       for word in dictionary:
         k = len(word)
         if k and domain[i:i+k] == word:
-          dp[i+k] = True
           words[i+k] = (word, i)
 
-  ans = []
-  start = n
+  ans, start = [], n
   while start and start in words:
     ans.append(words[start][0])
     start = words[start][1]

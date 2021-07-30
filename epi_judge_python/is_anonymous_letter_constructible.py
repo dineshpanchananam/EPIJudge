@@ -1,9 +1,11 @@
 from test_framework import generic_test
+from collections import Counter
 
 def is_letter_constructible_from_magazine(letter_text: str,
                                           magazine_text: str) -> bool:
-  # TODO - you fill in here.
-  return True
+
+  l, m = Counter(letter_text), Counter(magazine_text)
+  return all(c in m and m[c] >= f for c, f in l.items())
 
 if __name__ == '__main__':
   exit(
