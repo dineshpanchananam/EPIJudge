@@ -33,9 +33,9 @@
 - [x] [spiral_ordering.py](./spiral_ordering.py) [sol](../epi_judge_python_solutions/spiral_ordering.py)
 - [x] [matrix_rotation.py](./matrix_rotation.py) [sol](../epi_judge_python_solutions/matrix_rotation.py)
 - [x] [pascal_triangle.py](./pascal_triangle.py) [sol](../epi_judge_python_solutions/pascal_triangle.py)
-### Strings (8/13)
+### Strings (9/13)
 - [x] [is_string_palindromic.py](./is_string_palindromic.py) [sol](../epi_judge_python_solutions/is_string_palindromic.py)
-- [ ] [string_integer_interconversion.py](./string_integer_interconversion.py) [sol](../epi_judge_python_solutions/string_integer_interconversion.py)
+- [x] [string_integer_interconversion.py](./string_integer_interconversion.py) [sol](../epi_judge_python_solutions/string_integer_interconversion.py)
 - [ ] [convert_base.py](./convert_base.py) [sol](../epi_judge_python_solutions/convert_base.py)
 - [x] [spreadsheet_encoding.py](./spreadsheet_encoding.py) [sol](../epi_judge_python_solutions/spreadsheet_encoding.py)
 - [ ] [replace_and_remove.py](./replace_and_remove.py) [sol](../epi_judge_python_solutions/replace_and_remove.py)
@@ -97,7 +97,7 @@
 - [ ] [k_closest_stars.py](./k_closest_stars.py) [sol](../epi_judge_python_solutions/k_closest_stars.py)
 - [x] [online_median.py](./online_median.py) [sol](../epi_judge_python_solutions/online_median.py)
 - [x] [k_largest_in_heap.py](./k_largest_in_heap.py) [sol](../epi_judge_python_solutions/k_largest_in_heap.py)
-### Searching (6/10)
+### Searching (7/10)
 - [x] [search_first_key.py](./search_first_key.py) [sol](../epi_judge_python_solutions/search_first_key.py)
 - [x] [search_entry_equal_to_index.py](./search_entry_equal_to_index.py) [sol](../epi_judge_python_solutions/search_entry_equal_to_index.py)
 - [ ] [search_shifted_sorted_array.py](./search_shifted_sorted_array.py) [sol](../epi_judge_python_solutions/search_shifted_sorted_array.py)
@@ -107,7 +107,7 @@
 - [x] [search_for_min_max_in_array.py](./search_for_min_max_in_array.py) [sol](../epi_judge_python_solutions/search_for_min_max_in_array.py)
 - [x] [kth_largest_in_array.py](./kth_largest_in_array.py) [sol](../epi_judge_python_solutions/kth_largest_in_array.py)
 - [ ] [absent_value_array.py](./absent_value_array.py) [sol](../epi_judge_python_solutions/absent_value_array.py)
-- [ ] [search_for_missing_element.py](./search_for_missing_element.py) [sol](../epi_judge_python_solutions/search_for_missing_element.py)
+- [x] [search_for_missing_element.py](./search_for_missing_element.py) [sol](../epi_judge_python_solutions/search_for_missing_element.py)
 ### Hash Tables (6/12)
 - [x] [anagrams.py](./anagrams.py) [sol](../epi_judge_python_solutions/anagrams.py)
 - [x] [is_string_permutable_to_palindrome.py](./is_string_permutable_to_palindrome.py) [sol](../epi_judge_python_solutions/is_string_permutable_to_palindrome.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 120/218 = 0.55
+PROGRESS: 122/218 = 0.56

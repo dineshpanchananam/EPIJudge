@@ -8,8 +8,14 @@ DuplicateAndMissing = collections.namedtuple('DuplicateAndMissing',
                                              ('duplicate', 'missing'))
 
 def find_duplicate_missing(A: List[int]) -> DuplicateAndMissing:
-  # TODO - you fill in here.
-  return DuplicateAndMissing(0, 0)
+  for i in range(len(A)):
+    while A[i] != A[A[i]]:
+      tmp = A[i]
+      A[i] = A[A[i]]
+      A[tmp] = tmp
+  for i in range(len(A)):
+    if A[i] != i:
+      return DuplicateAndMissing(A[i], i)
 
 def res_printer(prop, value):
   def fmt(x):
