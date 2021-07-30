@@ -8,14 +8,23 @@ class Name:
   def __init__(self, first_name: str, last_name: str) -> None:
     self.first_name, self.last_name = first_name, last_name
 
+  def __eq__(self, other) -> bool:
+    self.first_name == other.first_name
+
   def __lt__(self, other) -> bool:
     return (self.first_name < other.first_name
             if self.first_name != other.first_name else
             self.last_name < other.last_name)
 
 def eliminate_duplicate(A: List[Name]) -> None:
-  # TODO - you fill in here.
-  return
+  A.sort()
+  n = len(A)
+  k = 0
+  for i in range(n):
+    if A[i].first_name != A[k].first_name:
+      k += 1
+      A[k] = A[i]
+  del A[k:]
 
 @enable_executor_hook
 def eliminate_duplicate_wrapper(executor, names):
