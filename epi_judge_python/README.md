@@ -160,7 +160,7 @@
 - [x] [enumerate_trees.py](./enumerate_trees.py) [sol](../epi_judge_python_solutions/enumerate_trees.py)
 - [ ] [sudoku_solve.py](./sudoku_solve.py) [sol](../epi_judge_python_solutions/sudoku_solve.py)
 - [ ] [gray_code.py](./gray_code.py) [sol](../epi_judge_python_solutions/gray_code.py)
-### Dynamic Programming (10/14)
+### Dynamic Programming (11/14)
 - [x] [fibonacci.py](./fibonacci.py) [sol](../epi_judge_python_solutions/fibonacci.py)
 - [x] [max_sum_subarray.py](./max_sum_subarray.py) [sol](../epi_judge_python_solutions/max_sum_subarray.py)
 - [x] [number_of_score_combinations.py](./number_of_score_combinations.py) [sol](../epi_judge_python_solutions/number_of_score_combinations.py)
@@ -169,7 +169,7 @@
 - [x] [binomial_coefficients.py](./binomial_coefficients.py) [sol](../epi_judge_python_solutions/binomial_coefficients.py)
 - [x] [is_string_in_matrix.py](./is_string_in_matrix.py) [sol](../epi_judge_python_solutions/is_string_in_matrix.py)
 - [x] [knapsack.py](./knapsack.py) [sol](../epi_judge_python_solutions/knapsack.py)
-- [ ] [is_string_decomposable_into_words.py](./is_string_decomposable_into_words.py) [sol](../epi_judge_python_solutions/is_string_decomposable_into_words.py)
+- [x] [is_string_decomposable_into_words.py](./is_string_decomposable_into_words.py) [sol](../epi_judge_python_solutions/is_string_decomposable_into_words.py)
 - [ ] [minimum_weight_path_in_a_triangle.py](./minimum_weight_path_in_a_triangle.py) [sol](../epi_judge_python_solutions/minimum_weight_path_in_a_triangle.py)
 - [ ] [picking_up_coins.py](./picking_up_coins.py) [sol](../epi_judge_python_solutions/picking_up_coins.py)
 - [x] [number_of_traversals_staircase.py](./number_of_traversals_staircase.py) [sol](../epi_judge_python_solutions/number_of_traversals_staircase.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 124/218 = 0.57
+PROGRESS: 125/218 = 0.57

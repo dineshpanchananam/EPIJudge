@@ -4,11 +4,44 @@ from typing import List, Set
 from test_framework import generic_test
 from test_framework.test_failure import TestFailure
 from test_framework.test_utils import enable_executor_hook
+from functools import lru_cache
 
 def decompose_into_dictionary_words(domain: str,
                                     dictionary: Set[str]) -> List[str]:
-  # TODO - you fill in here.
-  return []
+
+  n = len(domain)
+  dp = [True]+[False]*n
+  words = {}
+
+  for i in range(n):
+    if dp[i]:
+      for word in dictionary:
+        k = len(word)
+        if k and domain[i:i+k] == word:
+          dp[i+k] = True
+          words[i+k] = (word, i)
+
+  ans = []
+  start = n
+  while start and start in words:
+    ans.append(words[start][0])
+    start = words[start][1]
+
+  return ans[::-1]
+
+# @lru_cache
+# def helper(k):
+#   for word in dictionary:
+#     if word and word == domain[k:k+len(word)]:
+#       offset = k+len(word)
+#       if offset == n:
+#         return [word]
+#       if sub := helper(offset):
+#         return [word]+sub
+#   return []
+
+# n = len(domain)
+# return helper(0)
 
 @enable_executor_hook
 def decompose_into_dictionary_words_wrapper(executor, domain, dictionary,
