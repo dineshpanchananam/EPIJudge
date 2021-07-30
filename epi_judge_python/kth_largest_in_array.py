@@ -15,7 +15,7 @@ def part(A):
       j -= 1
     else:
       A[j], A[i] = A[i], A[j]
-      i, j = i+1, j-1
+      # i, j = i+1, j-1
   A[0], A[j] = A[j], A[0]
   return j
 
@@ -25,7 +25,7 @@ def part(A):
 def find_kth_largest(k: int, A: List[int]) -> int:
   p = part(A)
   if p+1 == k:
-    return min(A[:p+1])
+    return A[p]
   elif k > p+1:
     return find_kth_largest(k-p-1, A[p+1:])
   else:  # k < right+1
