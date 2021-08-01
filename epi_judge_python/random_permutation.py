@@ -9,8 +9,10 @@ from test_framework.random_sequence_checker import (
 from test_framework.test_utils import enable_executor_hook
 
 def compute_random_permutation(n: int) -> List[int]:
-  # TODO - you fill in here.
-  return []
+  from offline_sampling import random_sampling
+  a = list(range(n))
+  random_sampling(n, a)
+  return a
 
 @enable_executor_hook
 def compute_random_permutation_wrapper(executor, n):

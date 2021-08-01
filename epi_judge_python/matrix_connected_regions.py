@@ -3,8 +3,7 @@ from typing import List
 from test_framework import generic_test
 
 def flip_color(x: int, y: int, image: List[List[bool]]) -> None:
-  # TODO - you fill in here.
-  return
+  pass
 
 def flip_color_wrapper(x, y, image):
   flip_color(x, y, image)

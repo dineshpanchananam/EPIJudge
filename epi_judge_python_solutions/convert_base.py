@@ -3,7 +3,6 @@ import string
 
 from test_framework import generic_test
 
-
 def convert_base(num_as_string: str, b1: int, b2: int) -> str:
     def construct_from_base(num_as_int, base):
         return ('' if num_as_int == 0 else
