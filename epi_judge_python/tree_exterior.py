@@ -35,6 +35,8 @@ def exterior_binary_tree(tree: BinaryTreeNode) -> List[BinaryTreeNode]:
       leaves(t.left)
       leaves(t.right)
 
+  if not tree:
+    return []
   ext = [tree]
   lb(tree.left)
   leaves(tree.left)
