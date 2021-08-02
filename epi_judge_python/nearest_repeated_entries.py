@@ -6,11 +6,9 @@ def find_nearest_repetition(paragraph: List[str]) -> int:
   words = {}
   dist = 1 << 60
   for pos, word in enumerate(paragraph):
-    if word not in words:
-      words[word] = pos
-    else:
+    if word in words:
       dist = min(dist, pos-words[word])
-      words[word] = pos
+    words[word] = pos
   return -1 if dist == 1 << 60 else dist
 
 if __name__ == '__main__':
