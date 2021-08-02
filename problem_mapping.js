@@ -1206,7 +1206,7 @@ problem_mapping = {
                 "total": 10
             },
             "Python: tree_right_sibling.py": {
-                "passed": 0,
+                "passed": 10,
                 "total": 10
             }
         }
@@ -1378,7 +1378,7 @@ problem_mapping = {
                 "total": 194
             },
             "Python: search_row_col_sorted_matrix.py": {
-                "passed": 0,
+                "passed": 194,
                 "total": 194
             }
         },
@@ -1520,7 +1520,7 @@ problem_mapping = {
                 "total": 505
             },
             "Python: nearest_repeated_entries.py": {
-                "passed": 0,
+                "passed": 505,
                 "total": 505
             }
         },
@@ -2072,7 +2072,7 @@ problem_mapping = {
                 "total": 522
             },
             "Python: enumerate_palindromic_decompositions.py": {
-                "passed": 0,
+                "passed": 522,
                 "total": 522
             }
         },

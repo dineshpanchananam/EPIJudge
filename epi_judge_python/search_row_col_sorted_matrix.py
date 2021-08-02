@@ -3,8 +3,16 @@ from typing import List
 from test_framework import generic_test
 
 def matrix_search(A: List[List[int]], x: int) -> bool:
-  # TODO - you fill in here.
-  return True
+  m, n = len(A), len(A[0])
+  i, j = 0, n-1
+  while i < m and j >= 0:
+    if A[i][j] == x:
+      return True
+    elif A[i][j] > x:
+      j -= 1
+    else:
+      i += 1
+  return False
 
 if __name__ == '__main__':
   exit(

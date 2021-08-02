@@ -3,8 +3,15 @@ from typing import List
 from test_framework import generic_test
 
 def find_nearest_repetition(paragraph: List[str]) -> int:
-  # TODO - you fill in here.
-  return 0
+  words = {}
+  dist = 1 << 60
+  for pos, word in enumerate(paragraph):
+    if word not in words:
+      words[word] = pos
+    else:
+      dist = min(dist, pos-words[word])
+      words[word] = pos
+  return -1 if dist == 1 << 60 else dist
 
 if __name__ == '__main__':
   exit(

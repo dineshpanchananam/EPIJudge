@@ -11,8 +11,15 @@ class BinaryTreeNode:
     self.next = None  # Populates this field.
 
 def construct_right_sibling(tree: BinaryTreeNode) -> None:
-  # TODO - you fill in here.
-  return
+  def helper(r):
+    while r and r.left:
+      r.left.next = r.right
+      r.right.next = r.next and r.next.left
+      r = r.next
+
+  while tree and tree.left:
+    helper(tree)
+    tree = tree.left
 
 def traverse_next(node):
   while node:
