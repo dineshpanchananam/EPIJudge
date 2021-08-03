@@ -532,7 +532,7 @@ problem_mapping = {
                 "total": 501
             },
             "Python: replace_and_remove.py": {
-                "passed": 0,
+                "passed": 501,
                 "total": 501
             }
         },
@@ -588,7 +588,7 @@ problem_mapping = {
                 "total": 3999
             },
             "Python: roman_to_integer.py": {
-                "passed": 0,
+                "passed": 3999,
                 "total": 3999
             }
         },
@@ -966,7 +966,7 @@ problem_mapping = {
                 "total": 65
             },
             "Python: circular_queue.py": {
-                "passed": 0,
+                "passed": 65,
                 "total": 65
             }
         },
@@ -1250,7 +1250,7 @@ problem_mapping = {
                 "total": 101
             },
             "Python: sort_almost_sorted_array.py": {
-                "passed": 0,
+                "passed": 101,
                 "total": 101
             }
         },
@@ -1548,7 +1548,7 @@ problem_mapping = {
                 "total": 629
             },
             "Python: smallest_subarray_covering_all_values.py": {
-                "passed": 11,
+                "passed": 2,
                 "total": 629
             }
         },
@@ -1930,7 +1930,7 @@ problem_mapping = {
                 "total": 954
             },
             "Python: range_lookup_in_bst.py": {
-                "passed": 0,
+                "passed": 954,
                 "total": 954
             }
         },

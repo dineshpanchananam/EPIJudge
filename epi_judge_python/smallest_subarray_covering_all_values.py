@@ -17,9 +17,9 @@ def find_smallest_sequentially_covering_subset(
   x, y = 0, n
   pos_map = {}
   pos = [float('inf')]*m
-  for i in range(n):-
-    pos_map[paragraph[i]] = i
+  for i in range(n):
     if paragraph[i] == keywords[ptr]:
+      pos_map[paragraph[i]] = i
       ptr += 1
     if ptr == m:
       last_occ_first_kw = pos_map[keywords[0]]
