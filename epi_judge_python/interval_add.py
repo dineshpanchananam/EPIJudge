@@ -10,8 +10,20 @@ Interval = collections.namedtuple('Interval', ('left', 'right'))
 
 def add_interval(disjoint_intervals: List[Interval],
                  new_interval: Interval) -> List[Interval]:
-  # TODO - you fill in here.
-  return []
+  added = []
+  k, n = 0, len(disjoint_intervals)
+  while k < n and disjoint_intervals[k].right < new_interval.left:
+    added.append(disjoint_intervals[k])
+    k += 1
+
+  while k < n and (disjoint_intervals[k].left <= new_interval.right):
+    new_interval = Interval(
+      min(new_interval.left, disjoint_intervals[k].left),
+      max(new_interval.right, disjoint_intervals[k].right),
+    )
+    k += 1
+
+  return added+[new_interval]+disjoint_intervals[k:]
 
 @enable_executor_hook
 def add_interval_wrapper(executor, disjoint_intervals, new_interval):
