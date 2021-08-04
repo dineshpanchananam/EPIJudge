@@ -121,13 +121,13 @@
 - [ ] [longest_contained_interval.py](./longest_contained_interval.py) [sol](../epi_judge_python_solutions/longest_contained_interval.py)
 - [x] [string_decompositions_into_dictionary_words.py](./string_decompositions_into_dictionary_words.py) [sol](../epi_judge_python_solutions/string_decompositions_into_dictionary_words.py)
 - [x] [collatz_checker.py](./collatz_checker.py) [sol](../epi_judge_python_solutions/collatz_checker.py)
-### Sorting (8/12)
+### Sorting (9/12)
 - [x] [intersect_sorted_arrays.py](./intersect_sorted_arrays.py) [sol](../epi_judge_python_solutions/intersect_sorted_arrays.py)
 - [x] [two_sorted_arrays_merge.py](./two_sorted_arrays_merge.py) [sol](../epi_judge_python_solutions/two_sorted_arrays_merge.py)
 - [x] [h_index.py](./h_index.py) [sol](../epi_judge_python_solutions/h_index.py)
 - [x] [remove_duplicates.py](./remove_duplicates.py) [sol](../epi_judge_python_solutions/remove_duplicates.py)
 - [x] [smallest_nonconstructible_value.py](./smallest_nonconstructible_value.py) [sol](../epi_judge_python_solutions/smallest_nonconstructible_value.py)
-- [ ] [calendar_rendering.py](./calendar_rendering.py) [sol](../epi_judge_python_solutions/calendar_rendering.py)
+- [x] [calendar_rendering.py](./calendar_rendering.py) [sol](../epi_judge_python_solutions/calendar_rendering.py)
 - [ ] [interval_add.py](./interval_add.py) [sol](../epi_judge_python_solutions/interval_add.py)
 - [x] [intervals_union.py](./intervals_union.py) [sol](../epi_judge_python_solutions/intervals_union.py)
 - [x] [group_equal_entries.py](./group_equal_entries.py) [sol](../epi_judge_python_solutions/group_equal_entries.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 158/218 = 0.72
+PROGRESS: 159/218 = 0.73
