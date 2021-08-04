@@ -7,9 +7,17 @@ from test_framework.test_utils import enable_executor_hook
 
 Interval = collections.namedtuple('Interval', ('left', 'right'))
 
-def find_minimum_visits(intervals: List[Interval]) -> int:
-  # TODO - you fill in here.
-  return 0
+[3, 4], [1, 5], [7, 8]
+
+def find_minimum_visits(ints: List[Interval]) -> int:
+  ints.sort(key=lambda x: x.right)
+  last = float('-inf')
+  ans = 0
+  for i in ints:
+    if i.left > last:
+      last = i.right
+      ans += 1
+  return ans
 
 @enable_executor_hook
 def find_minimum_visits_wrapper(executor, A):

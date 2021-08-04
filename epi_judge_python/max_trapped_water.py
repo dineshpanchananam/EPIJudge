@@ -2,9 +2,16 @@ from typing import List
 
 from test_framework import generic_test
 
-def get_max_trapped_water(heights: List[int]) -> int:
-  # TODO - you fill in here.
-  return 0
+def get_max_trapped_water(a: List[int]) -> int:
+  l, h = 0, len(a)-1
+  area = 0
+  while l < h:
+    area = max(area, min(a[l], a[h])*(h-l))
+    if a[l] > a[h]:
+      h -= 1
+    else:
+      l += 1
+  return area
 
 if __name__ == '__main__':
   exit(

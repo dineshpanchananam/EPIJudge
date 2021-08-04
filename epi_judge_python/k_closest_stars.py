@@ -1,7 +1,7 @@
 import functools
 import math
 from typing import Iterator, List
-
+import heapq as h
 from test_framework import generic_test
 from test_framework.test_utils import enable_executor_hook
 
@@ -24,8 +24,6 @@ class Star:
 
   def __eq__(self, rhs):
     return math.isclose(self.distance, rhs.distance)
-
-import heapq as h
 
 def find_closest_k_stars(stars: Iterator[Star], k: int) -> List[Star]:
   max_h = []
