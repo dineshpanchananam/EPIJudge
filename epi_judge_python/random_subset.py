@@ -6,10 +6,10 @@ from test_framework.random_sequence_checker import (
   binomial_coefficient, check_sequence_is_uniformly_random,
   compute_combination_idx, run_func_with_retries)
 from test_framework.test_utils import enable_executor_hook
+from random import sample
 
 def random_subset(n: int, k: int) -> List[int]:
-  # TODO - you fill in here.
-  return []
+  return sample(range(n), k)
 
 @enable_executor_hook
 def random_subset_wrapper(executor, n, k):
