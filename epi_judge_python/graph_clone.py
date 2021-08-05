@@ -9,9 +9,20 @@ class GraphVertex:
     self.label = label
     self.edges: List['GraphVertex'] = []
 
+import collections
+
 def clone_graph(graph: GraphVertex) -> GraphVertex:
-  # TODO - you fill in here.
-  return GraphVertex(0)
+  if graph:
+    s = [graph]
+    mp = {graph: GraphVertex(graph.label)}
+    while s:
+      node = s.pop()
+      for v in node.edges:
+        if v not in mp:
+          mp[v] = GraphVertex(v.label)
+          s.append(v)
+        mp[node].edges.append(mp[v])
+    return mp[graph]
 
 def copy_labels(edges):
   return [e.label for e in edges]
