@@ -5,8 +5,13 @@ from test_framework import generic_test
 from test_framework.test_failure import PropertyName, TestFailure
 from test_framework.test_utils import enable_executor_hook
 
-def rearrange(A: List[int]) -> None:
-  A.sort()
+def rearrange(a: List[int]) -> None:
+  n = len(a)
+  for i in range(1, n, 2):
+    if a[i] < a[i-1]:
+      a[i-1], a[i] = a[i], a[i-1]
+    if i+1 < n and a[i] < a[i+1]:
+      a[i+1], a[i] = a[i], a[i+1]
 
 @enable_executor_hook
 def rearrange_wrapper(executor, A):
