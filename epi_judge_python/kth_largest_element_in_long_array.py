@@ -1,10 +1,14 @@
 from typing import Iterator
 
 from test_framework import generic_test
+import heapq as h
 
 def find_kth_largest_unknown_length(stream: Iterator[int], k: int) -> int:
-  # TODO - you fill in here.
-  return 0
+  mh = [next(stream) for _ in range(k)]
+  h.heapify(mh)
+  for x in stream:
+    h.heappushpop(mh, x)
+  return mh[0]
 
 # Pythonic solution that uses library method but costs O(nlogk) time.
 def find_kth_largest_unknown_length_pythonic(stream, k):
