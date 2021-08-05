@@ -195,7 +195,7 @@
 - [x] [is_circuit_wirable.py](./is_circuit_wirable.py) [sol](../epi_judge_python_solutions/is_circuit_wirable.py)
 - [x] [string_transformability.py](./string_transformability.py) [sol](../epi_judge_python_solutions/string_transformability.py)
 - [x] [max_teams_in_photograph.py](./max_teams_in_photograph.py) [sol](../epi_judge_python_solutions/max_teams_in_photograph.py)
-### Honors Class (10/36)
+### Honors Class (11/36)
 - [x] [gcd.py](./gcd.py) [sol](../epi_judge_python_solutions/gcd.py)
 - [x] [first_missing_positive_entry.py](./first_missing_positive_entry.py) [sol](../epi_judge_python_solutions/first_missing_positive_entry.py)
 - [ ] [buy_and_sell_stock_k_times.py](./buy_and_sell_stock_k_times.py) [sol](../epi_judge_python_solutions/buy_and_sell_stock_k_times.py)
@@ -222,7 +222,7 @@
 - [ ] [count_inversions.py](./count_inversions.py) [sol](../epi_judge_python_solutions/count_inversions.py)
 - [ ] [drawing_skyline.py](./drawing_skyline.py) [sol](../epi_judge_python_solutions/drawing_skyline.py)
 - [ ] [defective_jugs.py](./defective_jugs.py) [sol](../epi_judge_python_solutions/defective_jugs.py)
-- [ ] [maximum_subarray_in_circular_array.py](./maximum_subarray_in_circular_array.py) [sol](../epi_judge_python_solutions/maximum_subarray_in_circular_array.py)
+- [x] [maximum_subarray_in_circular_array.py](./maximum_subarray_in_circular_array.py) [sol](../epi_judge_python_solutions/maximum_subarray_in_circular_array.py)
 - [ ] [max_safe_height.py](./max_safe_height.py) [sol](../epi_judge_python_solutions/max_safe_height.py)
 - [ ] [max_square_submatrix.py](./max_square_submatrix.py) [sol](../epi_judge_python_solutions/max_square_submatrix.py)
 - [ ] [max_submatrix.py](./max_submatrix.py) [sol](../epi_judge_python_solutions/max_submatrix.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 175/218 = 0.80
+PROGRESS: 176/218 = 0.81
