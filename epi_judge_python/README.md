@@ -134,14 +134,14 @@
 - [x] [is_array_dominated.py](./is_array_dominated.py) [sol](../epi_judge_python_solutions/is_array_dominated.py)
 - [x] [sort_list.py](./sort_list.py) [sol](../epi_judge_python_solutions/sort_list.py)
 - [x] [find_salary_threshold.py](./find_salary_threshold.py) [sol](../epi_judge_python_solutions/find_salary_threshold.py)
-### Binary Search Trees (8/12)
+### Binary Search Trees (9/12)
 - [x] [search_in_bst.py](./search_in_bst.py) [sol](../epi_judge_python_solutions/search_in_bst.py)
 - [x] [is_tree_a_bst.py](./is_tree_a_bst.py) [sol](../epi_judge_python_solutions/is_tree_a_bst.py)
 - [x] [search_first_greater_value_in_bst.py](./search_first_greater_value_in_bst.py) [sol](../epi_judge_python_solutions/search_first_greater_value_in_bst.py)
 - [x] [k_largest_values_in_bst.py](./k_largest_values_in_bst.py) [sol](../epi_judge_python_solutions/k_largest_values_in_bst.py)
 - [x] [lowest_common_ancestor_in_bst.py](./lowest_common_ancestor_in_bst.py) [sol](../epi_judge_python_solutions/lowest_common_ancestor_in_bst.py)
 - [x] [bst_from_preorder.py](./bst_from_preorder.py) [sol](../epi_judge_python_solutions/bst_from_preorder.py)
-- [ ] [minimum_distance_3_sorted_arrays.py](./minimum_distance_3_sorted_arrays.py) [sol](../epi_judge_python_solutions/minimum_distance_3_sorted_arrays.py)
+- [x] [minimum_distance_3_sorted_arrays.py](./minimum_distance_3_sorted_arrays.py) [sol](../epi_judge_python_solutions/minimum_distance_3_sorted_arrays.py)
 - [ ] [a_b_sqrt2.py](./a_b_sqrt2.py) [sol](../epi_judge_python_solutions/a_b_sqrt2.py)
 - [x] [bst_from_sorted_array.py](./bst_from_sorted_array.py) [sol](../epi_judge_python_solutions/bst_from_sorted_array.py)
 - [ ] [descendant_and_ancestor_in_bst.py](./descendant_and_ancestor_in_bst.py) [sol](../epi_judge_python_solutions/descendant_and_ancestor_in_bst.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 168/218 = 0.77
+PROGRESS: 169/218 = 0.78
