@@ -1,5 +1,6 @@
 import functools
 from typing import List
+import collections
 
 from test_framework import generic_test
 from test_framework.test_utils import enable_executor_hook
@@ -10,8 +11,36 @@ class GraphVertex:
     self.edges: List[GraphVertex] = []
 
 def is_any_placement_feasible(graph: List[GraphVertex]) -> bool:
-  # TODO - you fill in here.
-  return True
+  def bfs(s):
+    s.d += 1
+    q = collections.deque([s])
+    while q:
+      node = q.popleft()
+      for v in node.edges:
+        if v.d == -1:
+          v.d = 1-node.d
+          q.append(v)
+        elif v.d == node.d:
+          return False
+    return True
+
+  return all(bfs(x) for x in graph if x.d == -1)
+
+  # is_bipartite = True
+  # q = collections.deque(graph)
+  # colors = {}
+  # while q:
+  #   node = q.popleft()
+  #   if node not in colors:
+  #     colors[node] = 0
+  #   for v in node.edges:
+  #     if v not in colors:
+  #       colors[v] = 1-colors[node]
+  #       q.append(v)
+  #     elif colors[v] == colors[node]:
+  #       is_bipartite = False
+  #       q.clear()
+  # return is_bipartite
 
 @enable_executor_hook
 def is_any_placement_feasible_wrapper(executor, k, edges):
