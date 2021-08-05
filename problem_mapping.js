@@ -2692,7 +2692,7 @@ problem_mapping = {
                 "total": 51
             },
             "Python: zip_list.py": {
-                "passed": 0,
+                "passed": 51,
                 "total": 51
             }
         },
@@ -2734,7 +2734,7 @@ problem_mapping = {
                 "total": 149
             },
             "Python: max_of_sliding_window.py": {
-                "passed": 0,
+                "passed": 149,
                 "total": 149
             }
         },
@@ -2860,7 +2860,7 @@ problem_mapping = {
                 "total": 474
             },
             "Python: bst_merge.py": {
-                "passed": 0,
+                "passed": 474,
                 "total": 474
             }
         },

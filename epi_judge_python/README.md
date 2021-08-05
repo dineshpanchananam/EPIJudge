@@ -195,7 +195,7 @@
 - [x] [is_circuit_wirable.py](./is_circuit_wirable.py) [sol](../epi_judge_python_solutions/is_circuit_wirable.py)
 - [x] [string_transformability.py](./string_transformability.py) [sol](../epi_judge_python_solutions/string_transformability.py)
 - [x] [max_teams_in_photograph.py](./max_teams_in_photograph.py) [sol](../epi_judge_python_solutions/max_teams_in_photograph.py)
-### Honors Class (7/36)
+### Honors Class (10/36)
 - [x] [gcd.py](./gcd.py) [sol](../epi_judge_python_solutions/gcd.py)
 - [x] [first_missing_positive_entry.py](./first_missing_positive_entry.py) [sol](../epi_judge_python_solutions/first_missing_positive_entry.py)
 - [ ] [buy_and_sell_stock_k_times.py](./buy_and_sell_stock_k_times.py) [sol](../epi_judge_python_solutions/buy_and_sell_stock_k_times.py)
@@ -204,10 +204,10 @@
 - [ ] [rotate_array.py](./rotate_array.py) [sol](../epi_judge_python_solutions/rotate_array.py)
 - [ ] [rook_attack.py](./rook_attack.py) [sol](../epi_judge_python_solutions/rook_attack.py)
 - [ ] [left_right_justify_text.py](./left_right_justify_text.py) [sol](../epi_judge_python_solutions/left_right_justify_text.py)
-- [ ] [zip_list.py](./zip_list.py) [sol](../epi_judge_python_solutions/zip_list.py)
+- [x] [zip_list.py](./zip_list.py) [sol](../epi_judge_python_solutions/zip_list.py)
 - [ ] [copy_posting_list.py](./copy_posting_list.py) [sol](../epi_judge_python_solutions/copy_posting_list.py)
 - [x] [longest_substring_with_matching_parentheses.py](./longest_substring_with_matching_parentheses.py) [sol](../epi_judge_python_solutions/longest_substring_with_matching_parentheses.py)
-- [ ] [max_of_sliding_window.py](./max_of_sliding_window.py) [sol](../epi_judge_python_solutions/max_of_sliding_window.py)
+- [x] [max_of_sliding_window.py](./max_of_sliding_window.py) [sol](../epi_judge_python_solutions/max_of_sliding_window.py)
 - [ ] [bonus.py](./bonus.py) [sol](../epi_judge_python_solutions/bonus.py)
 - [ ] [search_unknown_length_array.py](./search_unknown_length_array.py) [sol](../epi_judge_python_solutions/search_unknown_length_array.py)
 - [ ] [kth_largest_element_in_two_sorted_arrays.py](./kth_largest_element_in_two_sorted_arrays.py) [sol](../epi_judge_python_solutions/kth_largest_element_in_two_sorted_arrays.py)
@@ -216,7 +216,7 @@
 - [ ] [line_through_most_points.py](./line_through_most_points.py) [sol](../epi_judge_python_solutions/line_through_most_points.py)
 - [x] [sorted_list_to_bst.py](./sorted_list_to_bst.py) [sol](../epi_judge_python_solutions/sorted_list_to_bst.py)
 - [x] [bst_to_sorted_list.py](./bst_to_sorted_list.py) [sol](../epi_judge_python_solutions/bst_to_sorted_list.py)
-- [ ] [bst_merge.py](./bst_merge.py) [sol](../epi_judge_python_solutions/bst_merge.py)
+- [x] [bst_merge.py](./bst_merge.py) [sol](../epi_judge_python_solutions/bst_merge.py)
 - [ ] [regular_expression.py](./regular_expression.py) [sol](../epi_judge_python_solutions/regular_expression.py)
 - [ ] [insert_operators_in_string.py](./insert_operators_in_string.py) [sol](../epi_judge_python_solutions/insert_operators_in_string.py)
 - [ ] [count_inversions.py](./count_inversions.py) [sol](../epi_judge_python_solutions/count_inversions.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 172/218 = 0.79
+PROGRESS: 175/218 = 0.80

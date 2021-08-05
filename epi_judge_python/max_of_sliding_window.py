@@ -3,16 +3,38 @@ from typing import List
 
 from test_framework import generic_test
 from test_framework.test_utils import enable_executor_hook
+import collections
+from queue_with_max import QueueWithMax
 
 class TrafficElement:
   def __init__(self, time: int, volume: float) -> None:
     self.time = time
     self.volume = volume
 
+  def __lt__(self, other):
+    return self.volume < other.volume
+
 def calculate_traffic_volumes(A: List[TrafficElement],
                               w: int) -> List[TrafficElement]:
-  # TODO - you fill in here.
-  return []
+  # result = []
+  # q = QueueWithMax()
+  # for t in A:
+  #   q.enqueue(t)
+  #   while t.time-q.max().time > w:
+  #     q.dequeue()
+  #   result.append(TrafficElement(t.time, q.max().volume))
+  # return result
+
+  q = collections.deque()
+  result = []
+  for t in A:
+    while q and q[-1].volume < t.volume:
+      q.pop()
+    q.append(t)
+    while t.time-q[0].time > w:
+      q.popleft()
+    result.append(TrafficElement(t.time, q[0].volume))
+  return result
 
 @enable_executor_hook
 def calculate_traffic_volumes_wrapper(executor, A, w):
