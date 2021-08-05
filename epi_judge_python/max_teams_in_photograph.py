@@ -11,7 +11,14 @@ class GraphVertex:
     self.max_distance = 0
 
 def find_largest_number_teams(graph: List[GraphVertex]) -> int:
-  # TODO - you fill in here.
+  def dfs(x):
+    x.max_distance = max(
+      (y.max_distance+1 if y.max_distance != 0 else dfs(y)+1 for y in x.edges),
+      default=1)
+    return x.max_distance
+
+  return max(dfs(x) for x in graph if x.max_distance == 0)
+
   return 0
 
 @enable_executor_hook

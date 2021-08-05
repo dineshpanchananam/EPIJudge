@@ -186,7 +186,7 @@
 - [x] [refueling_schedule.py](./refueling_schedule.py) [sol](../epi_judge_python_solutions/refueling_schedule.py)
 - [x] [max_trapped_water.py](./max_trapped_water.py) [sol](../epi_judge_python_solutions/max_trapped_water.py)
 - [x] [largest_rectangle_under_skyline.py](./largest_rectangle_under_skyline.py) [sol](../epi_judge_python_solutions/largest_rectangle_under_skyline.py)
-### Graphs (7/8)
+### Graphs (8/8)
 - [x] [search_maze.py](./search_maze.py) [sol](../epi_judge_python_solutions/search_maze.py)
 - [x] [matrix_connected_regions.py](./matrix_connected_regions.py) [sol](../epi_judge_python_solutions/matrix_connected_regions.py)
 - [x] [matrix_enclosed_regions.py](./matrix_enclosed_regions.py) [sol](../epi_judge_python_solutions/matrix_enclosed_regions.py)
@@ -194,7 +194,7 @@
 - [x] [graph_clone.py](./graph_clone.py) [sol](../epi_judge_python_solutions/graph_clone.py)
 - [x] [is_circuit_wirable.py](./is_circuit_wirable.py) [sol](../epi_judge_python_solutions/is_circuit_wirable.py)
 - [x] [string_transformability.py](./string_transformability.py) [sol](../epi_judge_python_solutions/string_transformability.py)
-- [ ] [max_teams_in_photograph.py](./max_teams_in_photograph.py) [sol](../epi_judge_python_solutions/max_teams_in_photograph.py)
+- [x] [max_teams_in_photograph.py](./max_teams_in_photograph.py) [sol](../epi_judge_python_solutions/max_teams_in_photograph.py)
 ### Honors Class (7/36)
 - [x] [gcd.py](./gcd.py) [sol](../epi_judge_python_solutions/gcd.py)
 - [x] [first_missing_positive_entry.py](./first_missing_positive_entry.py) [sol](../epi_judge_python_solutions/first_missing_positive_entry.py)
@@ -233,4 +233,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 167/218 = 0.77
+PROGRESS: 168/218 = 0.77
