@@ -2608,7 +2608,7 @@ problem_mapping = {
                 "total": 201
             },
             "Python: buy_and_sell_stock_k_times.py": {
-                "passed": 0,
+                "passed": 201,
                 "total": 201
             }
         },
@@ -2650,7 +2650,7 @@ problem_mapping = {
                 "total": 101
             },
             "Python: rotate_array.py": {
-                "passed": 0,
+                "passed": 101,
                 "total": 101
             }
         },
@@ -2678,7 +2678,7 @@ problem_mapping = {
                 "total": 30
             },
             "Python: left_right_justify_text.py": {
-                "passed": 0,
+                "passed": 30,
                 "total": 30
             }
         },
@@ -2706,7 +2706,7 @@ problem_mapping = {
                 "total": 34
             },
             "Python: copy_posting_list.py": {
-                "passed": 0,
+                "passed": 32,
                 "total": 34
             }
         },
