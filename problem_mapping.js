@@ -2664,7 +2664,7 @@ problem_mapping = {
                 "total": 201
             },
             "Python: rook_attack.py": {
-                "passed": 0,
+                "passed": 201,
                 "total": 201
             }
         },
@@ -2776,7 +2776,7 @@ problem_mapping = {
                 "total": 201
             },
             "Python: kth_largest_element_in_two_sorted_arrays.py": {
-                "passed": 0,
+                "passed": 201,
                 "total": 201
             }
         },
@@ -2804,7 +2804,7 @@ problem_mapping = {
                 "total": 102
             },
             "Python: element_appearing_once.py": {
-                "passed": 0,
+                "passed": 102,
                 "total": 102
             }
         },
@@ -2998,7 +2998,7 @@ problem_mapping = {
                 "total": 11
             },
             "Python: huffman_coding.py": {
-                "passed": 0,
+                "passed": 11,
                 "total": 11
             }
         },
