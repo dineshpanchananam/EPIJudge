@@ -27,6 +27,10 @@ syms = {
   },
 }
 
+ignore = set()
+with open(".ignore") as ig:
+  ignore = set(x.strip() for x in ig)
+
 with open("../problem_mapping.js") as f:
   overall = {"done": 0, "total": 0}
   content = f.read().replace("problem_mapping = ", "").replace(";", "")
@@ -40,6 +44,8 @@ with open("../problem_mapping.js") as f:
         if not lang.startswith("Py"):
           continue
         key = lang[8:]
+        if key in ignore:
+          continue
         tot += 1
         passed, total = status["passed"], status["total"]
         if passed == total:
