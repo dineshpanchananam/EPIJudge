@@ -1,8 +1,13 @@
 from test_framework import generic_test
+from functools import lru_cache
 
+@lru_cache
 def get_height(cases: int, drops: int) -> int:
-  # TODO - you fill in here.
-  return 0
+  if drops == 0 or cases == 0:
+    return 0
+  if cases == 1:
+    return drops
+  return get_height(cases, drops-1)+1+get_height(cases-1, drops-1)
 
 if __name__ == '__main__':
   exit(

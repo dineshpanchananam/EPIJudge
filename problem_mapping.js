@@ -2818,7 +2818,7 @@ problem_mapping = {
                 "total": 282
             },
             "Python: line_through_most_points.py": {
-                "passed": 0,
+                "passed": 282,
                 "total": 282
             }
         },
@@ -2958,7 +2958,7 @@ problem_mapping = {
                 "total": 3829
             },
             "Python: max_safe_height.py": {
-                "passed": 0,
+                "passed": 3829,
                 "total": 3829
             }
         },
