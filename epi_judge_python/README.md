@@ -195,7 +195,7 @@
 - [x] [is_circuit_wirable.py](./is_circuit_wirable.py) [sol](../epi_judge_python_solutions/is_circuit_wirable.py)
 - [x] [string_transformability.py](./string_transformability.py) [sol](../epi_judge_python_solutions/string_transformability.py)
 - [x] [max_teams_in_photograph.py](./max_teams_in_photograph.py) [sol](../epi_judge_python_solutions/max_teams_in_photograph.py)
-### Honors Class (24/33)
+### Honors Class (25/33)
 - [x] [gcd.py](./gcd.py) [sol](../epi_judge_python_solutions/gcd.py)
 - [x] [first_missing_positive_entry.py](./first_missing_positive_entry.py) [sol](../epi_judge_python_solutions/first_missing_positive_entry.py)
 - [x] [buy_and_sell_stock_k_times.py](./buy_and_sell_stock_k_times.py) [sol](../epi_judge_python_solutions/buy_and_sell_stock_k_times.py)
@@ -224,10 +224,10 @@
 - [x] [maximum_subarray_in_circular_array.py](./maximum_subarray_in_circular_array.py) [sol](../epi_judge_python_solutions/maximum_subarray_in_circular_array.py)
 - [x] [max_safe_height.py](./max_safe_height.py) [sol](../epi_judge_python_solutions/max_safe_height.py)
 - [x] [huffman_coding.py](./huffman_coding.py) [sol](../epi_judge_python_solutions/huffman_coding.py)
-- [ ] [max_water_trappable.py](./max_water_trappable.py) [sol](../epi_judge_python_solutions/max_water_trappable.py)
+- [x] [max_water_trappable.py](./max_water_trappable.py) [sol](../epi_judge_python_solutions/max_water_trappable.py)
 - [x] [search_frequent_items.py](./search_frequent_items.py) [sol](../epi_judge_python_solutions/search_frequent_items.py)
 - [ ] [longest_subarray_with_sum_constraint.py](./longest_subarray_with_sum_constraint.py) [sol](../epi_judge_python_solutions/longest_subarray_with_sum_constraint.py)
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 191/215 = 0.89
+PROGRESS: 192/215 = 0.89
