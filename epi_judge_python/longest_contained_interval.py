@@ -3,8 +3,18 @@ from typing import List
 from test_framework import generic_test
 
 def longest_contained_range(A: List[int]) -> int:
-  # TODO - you fill in here.
-  return 0
+  s = set(A)
+  res = 0
+  for i in A:
+    if i-1 in s:
+      continue
+    seq = 0
+    while i in s:
+      seq += 1
+      res = max(res, seq)
+      # s.remove(i)
+      i += 1
+  return res
 
 if __name__ == '__main__':
   exit(

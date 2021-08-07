@@ -108,7 +108,7 @@
 - [x] [kth_largest_in_array.py](./kth_largest_in_array.py) [sol](../epi_judge_python_solutions/kth_largest_in_array.py)
 - [x] [absent_value_array.py](./absent_value_array.py) [sol](../epi_judge_python_solutions/absent_value_array.py)
 - [x] [search_for_missing_element.py](./search_for_missing_element.py) [sol](../epi_judge_python_solutions/search_for_missing_element.py)
-### Hash Tables (10/12)
+### Hash Tables (11/12)
 - [x] [anagrams.py](./anagrams.py) [sol](../epi_judge_python_solutions/anagrams.py)
 - [x] [is_string_permutable_to_palindrome.py](./is_string_permutable_to_palindrome.py) [sol](../epi_judge_python_solutions/is_string_permutable_to_palindrome.py)
 - [x] [is_anonymous_letter_constructible.py](./is_anonymous_letter_constructible.py) [sol](../epi_judge_python_solutions/is_anonymous_letter_constructible.py)
@@ -118,7 +118,7 @@
 - [x] [smallest_subarray_covering_set.py](./smallest_subarray_covering_set.py) [sol](../epi_judge_python_solutions/smallest_subarray_covering_set.py)
 - [ ] [smallest_subarray_covering_all_values.py](./smallest_subarray_covering_all_values.py) [sol](../epi_judge_python_solutions/smallest_subarray_covering_all_values.py)
 - [x] [longest_subarray_with_distinct_values.py](./longest_subarray_with_distinct_values.py) [sol](../epi_judge_python_solutions/longest_subarray_with_distinct_values.py)
-- [ ] [longest_contained_interval.py](./longest_contained_interval.py) [sol](../epi_judge_python_solutions/longest_contained_interval.py)
+- [x] [longest_contained_interval.py](./longest_contained_interval.py) [sol](../epi_judge_python_solutions/longest_contained_interval.py)
 - [x] [string_decompositions_into_dictionary_words.py](./string_decompositions_into_dictionary_words.py) [sol](../epi_judge_python_solutions/string_decompositions_into_dictionary_words.py)
 - [x] [collatz_checker.py](./collatz_checker.py) [sol](../epi_judge_python_solutions/collatz_checker.py)
 ### Sorting (12/12)
@@ -230,4 +230,4 @@
 - [ ] [road_network.py](./road_network.py) [sol](../epi_judge_python_solutions/road_network.py)
 - [ ] [arbitrage.py](./arbitrage.py) [sol](../epi_judge_python_solutions/arbitrage.py)
 
-PROGRESS: 189/215 = 0.88
+PROGRESS: 190/215 = 0.88
