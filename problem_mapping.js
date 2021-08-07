@@ -2748,7 +2748,7 @@ problem_mapping = {
                 "total": 106
             },
             "Python: bonus.py": {
-                "passed": 0,
+                "passed": 106,
                 "total": 106
             }
         },
@@ -3026,7 +3026,7 @@ problem_mapping = {
                 "total": 265
             },
             "Python: search_frequent_items.py": {
-                "passed": 0,
+                "passed": 265,
                 "total": 265
             }
         },
