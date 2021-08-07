@@ -3,32 +3,14 @@ import functools
 from typing import List
 
 from test_framework import generic_test
-from test_framework.test_failure import TestFailure  # keep
 from test_framework.test_utils import enable_executor_hook
 
 Subarray = collections.namedtuple('Subarray', ('start', 'end'))
 
 def find_smallest_sequentially_covering_subset(
-  paragraph: List[str],
-  keywords: List[str],
-) -> Subarray:
-  n, m = len(paragraph), len(keywords)
-  ptr, k = 0, 0
-  x, y = 0, n
-  pos_map = {}
-  pos = [float('inf')]*m
-  for i in range(n):
-    if paragraph[i] == keywords[ptr]:
-      pos_map[paragraph[i]] = i
-      ptr += 1
-    if ptr == m:
-      last_occ_first_kw = pos_map[keywords[0]]
-      if y-x+1 > i-last_occ_first_kw+1:
-        x, y = last_occ_first_kw, i
-      ptr = 0
-
-  print(f"returning {paragraph[x:y+1]}")
-  return Subarray(x, y)
+    paragraph: List[str], keywords: List[str]) -> Subarray:
+  # TODO - you fill in here.
+  return Subarray(0, 0)
 
 @enable_executor_hook
 def find_smallest_sequentially_covering_subset_wrapper(executor, paragraph,
