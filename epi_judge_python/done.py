@@ -56,7 +56,8 @@ with open("../problem_mapping.js") as f:
         else:
           output[key] = "todo"
     if display != "wip":
-      print(f"{syms[mode]['banner']} {_chap} ({done}/{tot})")
+      if not (display == "todo" and done == tot):
+        print(f"{syms[mode]['banner']} {_chap} ({done}/{tot})")
     overall["done"] += done
     overall["total"] += tot
     for key in output:
